@@ -1,0 +1,353 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="SQLProjectDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Account">
+          <Key>
+            <PropertyRef Name="username" />
+          </Key>
+          <Property Name="username" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="userId" Type="int" Nullable="false" />
+          <Property Name="accountType" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="password" Type="varchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Assignments">
+          <Key>
+            <PropertyRef Name="assignmentId" />
+          </Key>
+          <Property Name="assignmentId" Type="int" Nullable="false" />
+          <Property Name="year" Type="int" Nullable="false" />
+          <Property Name="semester" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="databaseName" Type="varchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Deductions">
+          <Key>
+            <PropertyRef Name="deductionTypeID" />
+          </Key>
+          <Property Name="deductionTypeID" Type="int" Nullable="false" />
+          <Property Name="deductionType" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="defaultFeedbackText" Type="varchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="MarksDeduction">
+          <Key>
+            <PropertyRef Name="dedcutionAmount" />
+          </Key>
+          <Property Name="dedcutionAmount" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Queries">
+          <Key>
+            <PropertyRef Name="queryId" />
+          </Key>
+          <Property Name="queryId" Type="int" Nullable="false" />
+          <Property Name="questionText" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="sqlQuery" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="comment" Type="varchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="queryType">
+          <Key>
+            <PropertyRef Name="typeId" />
+          </Key>
+          <Property Name="typeId" Type="int" Nullable="false" />
+          <Property Name="typeName" Type="varchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Questions_Previous">
+          <Key>
+            <PropertyRef Name="pastQuesitions" />
+          </Key>
+          <Property Name="pastQuesitions" Type="varchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Staff">
+          <Key>
+            <PropertyRef Name="staffId" />
+          </Key>
+          <Property Name="staffName" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="staffId" Type="int" Nullable="false" />
+          <Property Name="username" Type="varchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Student">
+          <Key>
+            <PropertyRef Name="networkId" />
+          </Key>
+          <Property Name="studentName" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="studentId" Type="int" Nullable="false" />
+          <Property Name="networkId" Type="varchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="StudentQueries">
+          <Key>
+            <PropertyRef Name="queryText" />
+          </Key>
+          <Property Name="queryText" Type="varchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="SQLProjectDBModelStoreContainer">
+          <EntitySet Name="Account" EntityType="Self.Account" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Assignments" EntityType="Self.Assignments" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Deductions" EntityType="Self.Deductions" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="MarksDeduction" EntityType="Self.MarksDeduction" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Queries" EntityType="Self.Queries" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="queryType" EntityType="Self.queryType" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Questions_Previous" EntityType="Self.Questions_Previous" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Staff" EntityType="Self.Staff" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Student" EntityType="Self.Student" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="StudentQueries" EntityType="Self.StudentQueries" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="SQLProjectDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Account">
+          <Key>
+            <PropertyRef Name="username" />
+          </Key>
+          <Property Name="username" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="userId" Type="Int32" Nullable="false" />
+          <Property Name="accountType" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="password" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="Staff" Relationship="SQLProjectDBModel.AccountStaff" FromRole="Account" ToRole="Staff" />
+          <NavigationProperty Name="Student" Relationship="SQLProjectDBModel.AccountStudent" FromRole="Account" ToRole="Student" />
+        </EntityType>
+        <EntityType Name="Assignment">
+          <Key>
+            <PropertyRef Name="assignmentId" />
+          </Key>
+          <Property Name="assignmentId" Type="Int32" Nullable="false" />
+          <Property Name="year" Type="Int32" Nullable="false" />
+          <Property Name="semester" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="databaseName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="Staff" Relationship="SQLProjectDBModel.StaffAssignment" FromRole="Assignment" ToRole="Staff" />
+          <Property Name="Staff_staffId" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Deduction">
+          <Key>
+            <PropertyRef Name="deductionTypeID" />
+          </Key>
+          <Property Name="deductionTypeID" Type="Int32" Nullable="false" />
+          <Property Name="deductionType" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="defaultFeedbackText" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+        </EntityType>
+        <EntityType Name="MarksDeduction">
+          <Key>
+            <PropertyRef Name="dedcutionAmount" />
+          </Key>
+          <Property Name="dedcutionAmount" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Query">
+          <Key>
+            <PropertyRef Name="queryId" />
+          </Key>
+          <Property Name="queryId" Type="Int32" Nullable="false" />
+          <Property Name="questionText" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="sqlQuery" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="comment" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+        </EntityType>
+        <EntityType Name="queryType">
+          <Key>
+            <PropertyRef Name="typeId" />
+          </Key>
+          <Property Name="typeId" Type="Int32" Nullable="false" />
+          <Property Name="typeName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Questions_Previous">
+          <Key>
+            <PropertyRef Name="pastQuesitions" />
+          </Key>
+          <Property Name="pastQuesitions" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Staff">
+          <Key>
+            <PropertyRef Name="staffId" />
+          </Key>
+          <Property Name="staffName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="staffId" Type="Int32" Nullable="false" />
+          <Property Name="username" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="Account" Relationship="SQLProjectDBModel.AccountStaff" FromRole="Staff" ToRole="Account" />
+          <NavigationProperty Name="Assignments" Relationship="SQLProjectDBModel.StaffAssignment" FromRole="Staff" ToRole="Assignment" />
+        </EntityType>
+        <EntityType Name="Student">
+          <Key>
+            <PropertyRef Name="networkId" />
+          </Key>
+          <Property Name="studentName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="studentId" Type="Int32" Nullable="false" />
+          <Property Name="networkId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="Account" Relationship="SQLProjectDBModel.AccountStudent" FromRole="Student" ToRole="Account" />
+          <NavigationProperty Name="StudentQueries" Relationship="SQLProjectDBModel.StudentStudentQuery" FromRole="Student" ToRole="StudentQuery" />
+        </EntityType>
+        <EntityType Name="StudentQuery">
+          <Key>
+            <PropertyRef Name="queryText" />
+          </Key>
+          <Property Name="queryText" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="Students" Relationship="SQLProjectDBModel.StudentStudentQuery" FromRole="StudentQuery" ToRole="Student" />
+        </EntityType>
+        <EntityContainer Name="SQLProjectDBEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Accounts" EntityType="Self.Account" />
+          <EntitySet Name="Assignments" EntityType="Self.Assignment" />
+          <EntitySet Name="Deductions" EntityType="Self.Deduction" />
+          <EntitySet Name="MarksDeductions" EntityType="Self.MarksDeduction" />
+          <EntitySet Name="Queries" EntityType="Self.Query" />
+          <EntitySet Name="queryTypes" EntityType="Self.queryType" />
+          <EntitySet Name="Questions_Previous" EntityType="Self.Questions_Previous" />
+          <EntitySet Name="Staffs" EntityType="Self.Staff" />
+          <EntitySet Name="Students" EntityType="Self.Student" />
+          <EntitySet Name="StudentQueries" EntityType="Self.StudentQuery" />
+          <AssociationSet Name="AccountStaff" Association="SQLProjectDBModel.AccountStaff">
+            <End Role="Account" EntitySet="Accounts" />
+            <End Role="Staff" EntitySet="Staffs" />
+          </AssociationSet>
+          <AssociationSet Name="AccountStudent" Association="SQLProjectDBModel.AccountStudent">
+            <End Role="Account" EntitySet="Accounts" />
+            <End Role="Student" EntitySet="Students" />
+          </AssociationSet>
+          <AssociationSet Name="StudentStudentQuery" Association="SQLProjectDBModel.StudentStudentQuery">
+            <End Role="Student" EntitySet="Students" />
+            <End Role="StudentQuery" EntitySet="StudentQueries" />
+          </AssociationSet>
+          <AssociationSet Name="StaffAssignment" Association="SQLProjectDBModel.StaffAssignment">
+            <End Role="Staff" EntitySet="Staffs" />
+            <End Role="Assignment" EntitySet="Assignments" />
+          </AssociationSet>
+        </EntityContainer>
+        <Association Name="AccountStaff">
+          <End Type="SQLProjectDBModel.Account" Role="Account" Multiplicity="0..1" />
+          <End Type="SQLProjectDBModel.Staff" Role="Staff" Multiplicity="1" />
+        </Association>
+        <Association Name="AccountStudent">
+          <End Type="SQLProjectDBModel.Account" Role="Account" Multiplicity="0..1" />
+          <End Type="SQLProjectDBModel.Student" Role="Student" Multiplicity="1" />
+        </Association>
+        <Association Name="StudentStudentQuery">
+          <End Type="SQLProjectDBModel.Student" Role="Student" Multiplicity="*" />
+          <End Type="SQLProjectDBModel.StudentQuery" Role="StudentQuery" Multiplicity="*" />
+        </Association>
+        <Association Name="StaffAssignment">
+          <End Type="SQLProjectDBModel.Staff" Role="Staff" Multiplicity="1" />
+          <End Type="SQLProjectDBModel.Assignment" Role="Assignment" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Staff">
+              <PropertyRef Name="staffId" />
+            </Principal>
+            <Dependent Role="Assignment">
+              <PropertyRef Name="Staff_staffId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="SQLProjectDBModelStoreContainer" CdmEntityContainer="SQLProjectDBEntities">
+          <EntitySetMapping Name="Accounts">
+            <EntityTypeMapping TypeName="SQLProjectDBModel.Account">
+              <MappingFragment StoreEntitySet="Account">
+                <ScalarProperty Name="username" ColumnName="username" />
+                <ScalarProperty Name="userId" ColumnName="userId" />
+                <ScalarProperty Name="accountType" ColumnName="accountType" />
+                <ScalarProperty Name="password" ColumnName="password" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Assignments">
+            <EntityTypeMapping TypeName="SQLProjectDBModel.Assignment">
+              <MappingFragment StoreEntitySet="Assignments">
+                <ScalarProperty Name="assignmentId" ColumnName="assignmentId" />
+                <ScalarProperty Name="year" ColumnName="year" />
+                <ScalarProperty Name="semester" ColumnName="semester" />
+                <ScalarProperty Name="databaseName" ColumnName="databaseName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Deductions">
+            <EntityTypeMapping TypeName="SQLProjectDBModel.Deduction">
+              <MappingFragment StoreEntitySet="Deductions">
+                <ScalarProperty Name="deductionTypeID" ColumnName="deductionTypeID" />
+                <ScalarProperty Name="deductionType" ColumnName="deductionType" />
+                <ScalarProperty Name="defaultFeedbackText" ColumnName="defaultFeedbackText" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="MarksDeductions">
+            <EntityTypeMapping TypeName="SQLProjectDBModel.MarksDeduction">
+              <MappingFragment StoreEntitySet="MarksDeduction">
+                <ScalarProperty Name="dedcutionAmount" ColumnName="dedcutionAmount" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Queries">
+            <EntityTypeMapping TypeName="SQLProjectDBModel.Query">
+              <MappingFragment StoreEntitySet="Queries">
+                <ScalarProperty Name="queryId" ColumnName="queryId" />
+                <ScalarProperty Name="questionText" ColumnName="questionText" />
+                <ScalarProperty Name="sqlQuery" ColumnName="sqlQuery" />
+                <ScalarProperty Name="comment" ColumnName="comment" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="queryTypes">
+            <EntityTypeMapping TypeName="SQLProjectDBModel.queryType">
+              <MappingFragment StoreEntitySet="queryType">
+                <ScalarProperty Name="typeId" ColumnName="typeId" />
+                <ScalarProperty Name="typeName" ColumnName="typeName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Questions_Previous">
+            <EntityTypeMapping TypeName="SQLProjectDBModel.Questions_Previous">
+              <MappingFragment StoreEntitySet="Questions_Previous">
+                <ScalarProperty Name="pastQuesitions" ColumnName="pastQuesitions" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Staffs">
+            <EntityTypeMapping TypeName="SQLProjectDBModel.Staff">
+              <MappingFragment StoreEntitySet="Staff">
+                <ScalarProperty Name="staffName" ColumnName="staffName" />
+                <ScalarProperty Name="staffId" ColumnName="staffId" />
+                <ScalarProperty Name="username" ColumnName="username" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Students">
+            <EntityTypeMapping TypeName="SQLProjectDBModel.Student">
+              <MappingFragment StoreEntitySet="Student">
+                <ScalarProperty Name="studentName" ColumnName="studentName" />
+                <ScalarProperty Name="studentId" ColumnName="studentId" />
+                <ScalarProperty Name="networkId" ColumnName="networkId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="StudentQueries">
+            <EntityTypeMapping TypeName="SQLProjectDBModel.StudentQuery">
+              <MappingFragment StoreEntitySet="StudentQueries">
+                <ScalarProperty Name="queryText" ColumnName="queryText" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

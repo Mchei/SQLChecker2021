@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace SQLChecker2021
 {
@@ -25,6 +26,17 @@ namespace SQLChecker2021
 
         private void button1_Click(object sender, EventArgs e)
         {
+            string startupPath = System.IO.Directory.GetCurrentDirectory();
+            string connectionString;
+            SqlConnection conn;
+            connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=" + startupPath + "\\SQLProjectDB.mdf;Integrated Security=True";
+            //connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\dilig\source\repos\SQLChecker2021\SQLChecker2021\SQLProjectDB.mdf;Integrated Security=True";
+            conn = new SqlConnection(connectionString);
+            conn.Open();
+            MessageBox.Show("Connection Open");
+            conn.Close();
+
+
             if (txtUserName.Text == "demo" && txtpassword.Text == "1234")
             {
                 new form1().Show();
