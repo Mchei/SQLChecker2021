@@ -173,5 +173,19 @@ namespace SQLChecker2021
             mouseDown = false;
         }
 
+        private void btnsettings_Click(object sender, EventArgs e)
+        {
+            pnlNav.Height = btnQueries.Height;
+            pnlNav.Top = btnQueries.Top;
+            pnlNav.Left = btnQueries.Left;
+            btnQueries.BackColor = Color.FromArgb(46, 51, 73);
+
+            lbltitle.Text = "Setting";
+            this.pnlFormLoader.Controls.Clear();
+            frmSetting frmSetting_vrb = new frmSetting() { Dock = DockStyle.Fill, TopLevel = false, TopMost = true };
+            frmSetting_vrb.FormBorderStyle = FormBorderStyle.None;
+            this.pnlFormLoader.Controls.Add(frmSetting_vrb);
+            frmSetting_vrb.Show();
+        }
     }
 }

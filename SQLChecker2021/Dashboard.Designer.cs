@@ -99,6 +99,7 @@ namespace SQLChecker2021
             this.btnsettings.Text = "Settings";
             this.btnsettings.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.btnsettings.UseVisualStyleBackColor = true;
+            this.btnsettings.Click += new System.EventHandler(this.btnsettings_Click);
             // 
             // btnContactUs
             // 
