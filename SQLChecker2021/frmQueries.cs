@@ -12,26 +12,19 @@ using System.Collections;
 
 namespace SQLChecker2021
 {
-
     public partial class frmQueries : Form
     {
         List<string> tableName;
         List<string> colName;
-        List<string> ANStableName;
-        List<string> ANScolName;
 
         public frmQueries()
         {
             InitializeComponent();
             tableName = new List<string>();
             colName = new List<string>();
-            ANStableName = new List<string>();
-            ANScolName = new List<string>();
 
             tableName = GetTables();
-            ANStableName = GetTables();
             getCol();
-            getANSCol();
         }
 
         private void executeButton1_Click(object sender, EventArgs e)
@@ -62,7 +55,6 @@ namespace SQLChecker2021
 
         public bool checkSQL(string sql,int num)
         {
-
 
             //SELECT * FROM Account;
             if (!sql.Equals("", StringComparison.OrdinalIgnoreCase))
@@ -201,8 +193,7 @@ namespace SQLChecker2021
             { 
                     using (SqlConnection connection = new SqlConnection(connectionString))
                 {
-                    //using (var schemaCommand = new SqlCommand("SELECT * FROM "+ tableName [i]+ ";", connection))
-                    using (var schemaCommand = new SqlCommand("SELECT * FROM Assignments; ", connection))
+                    using (var schemaCommand = new SqlCommand("SELECT * FROM "+ tableName [i]+ ";", connection))
                     {
                         connection.Open();
                         using (var reader = schemaCommand.ExecuteReader(CommandBehavior.SchemaOnly))
@@ -214,60 +205,9 @@ namespace SQLChecker2021
                 foreach (DataRow col in schema.Rows)
                 {
                     colName.Add(col.Field<String>("ColumnName"));
-                    Console.WriteLine("ColumnName={0}", col.Field<String>("ColumnName"));
-                    
-                }
-                
-            }
-        }
-
-        // Get Ans Col 
-        public void getANSCol()
-        {
-            DataTable schema = null;
-            string startupPath = System.IO.Directory.GetCurrentDirectory();
-
-            //string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\jeffe\Source\Repos\Mchei\SQLChecker2021\SQLChecker2021\SQLProjectDB.mdf;Integrated Security=True";
-            string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=" + startupPath + "\\SQLProjectDB.mdf;Integrated Security=True";
-            connectionString = connectionString.Replace("\\bin\\Debug", "");
-            /*        for (int i = 0; i < ANStableName.Count; i++)
-                    {
-                        using (SqlConnection connection = new SqlConnection(connectionString))
-                        {
-                            using (var schemaCommand = new SqlCommand(query1.Text, connection))
-                            {
-                                connection.Open();
-                                using (var reader = schemaCommand.ExecuteReader(CommandBehavior.SchemaOnly))
-                                {
-                                    schema = reader.GetSchemaTable();
-                                }
-                            }
-                        }
-                        foreach (DataRow Acol in schema.Rows)
-                        {
-                            ANScolName.Add(Acol.Field<String>("ColumnName"));
-                            Console.WriteLine("ColumnName={0}", Acol.Field<String>("ColumnName"));
-                        }
-                    }*/
-
-            using (SqlConnection connection = new SqlConnection(connectionString))
-            {
-                using (var schemaCommand = new SqlCommand(query1.Text, connection))
-                {
-                    connection.Open();
-                    using (var reader = schemaCommand.ExecuteReader(CommandBehavior.SchemaOnly))
-                    {
-                        schema = reader.GetSchemaTable();
-                    }
+                    //Console.WriteLine("ColumnName={0}", col.Field<String>("ColumnName"));
                 }
             }
-            foreach (DataRow Acol in schema.Rows)
-            {
-                ANScolName.Add(Acol.Field<String>("ColumnName"));
-                Console.WriteLine("ColumnName={0}", Acol.Field<String>("ColumnName"));
-            }
-
-
         }
 
         // get all table name and store in into a tableName
@@ -289,7 +229,7 @@ namespace SQLChecker2021
                 {
                     TableNames.Add(row[2].ToString());
                     
-                    Console.WriteLine("row[2].ToString(): " + row[2].ToString());
+                    //Console.WriteLine("row[2].ToString(): " + row[2].ToString());
                 }
                 connection.Close();
                 return TableNames;
