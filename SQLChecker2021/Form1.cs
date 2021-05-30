@@ -65,9 +65,9 @@ namespace SQLChecker2021
 
         private void label2_Click(object sender, EventArgs e)
         {
-            txtUserName.Clear();
-            txtpassword.Clear();
-            txtUserName.Focus();
+            TB_UserName.Clear();
+            TB_Password.Clear();
+            TB_UserName.Focus();
         }
     }
  }

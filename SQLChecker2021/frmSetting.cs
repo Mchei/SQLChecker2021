@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace SQLChecker2021
 {
@@ -51,5 +52,16 @@ namespace SQLChecker2021
         {
 
         }
+
+        private void BT_SaveSetting_Click(object sender, EventArgs e)
+        {
+            newlocation = TB_NewLocation.Text;
+            File.WriteAllText(path, newlocation);
+            location = System.IO.File.ReadAllText(path);
+            TB_CurrentLocation.Text = location;
+            TB_NewLocation.Text = "";
+        }
+
+        
     }
 }

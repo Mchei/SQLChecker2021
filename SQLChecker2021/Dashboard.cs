@@ -11,7 +11,7 @@ using System.Runtime.InteropServices;
 
 namespace SQLChecker2021
 {
-    
+
 
     public partial class form1 : Form
     {
@@ -30,11 +30,11 @@ namespace SQLChecker2021
                int nHeightEllipse
 
          );
-        
+
 
         public form1()
         {
-            
+
             InitializeComponent();
             Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 25, 25));
             pnlNav.Height = btnDashbord.Height;
@@ -173,5 +173,10 @@ namespace SQLChecker2021
             mouseDown = false;
         }
 
+        private void btnsettings_Click(object sender, EventArgs e)
+        {
+
+
+        }
     }
 }

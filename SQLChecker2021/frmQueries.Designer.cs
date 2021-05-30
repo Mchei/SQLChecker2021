@@ -30,78 +30,80 @@ namespace SQLChecker2021
         private void InitializeComponent()
         {
             this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.label18 = new System.Windows.Forms.Label();
-            this.textBox18 = new System.Windows.Forms.TextBox();
-            this.checkBox18 = new System.Windows.Forms.CheckBox();
-            this.query15 = new System.Windows.Forms.RichTextBox();
-            this.label14 = new System.Windows.Forms.Label();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.checkBox15 = new System.Windows.Forms.CheckBox();
-            this.query13 = new System.Windows.Forms.RichTextBox();
-            this.label13 = new System.Windows.Forms.Label();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.checkBox14 = new System.Windows.Forms.CheckBox();
-            this.query11 = new System.Windows.Forms.RichTextBox();
-            this.label12 = new System.Windows.Forms.Label();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.checkBox13 = new System.Windows.Forms.CheckBox();
-            this.query12 = new System.Windows.Forms.RichTextBox();
-            this.label11 = new System.Windows.Forms.Label();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.checkBox12 = new System.Windows.Forms.CheckBox();
-            this.query14 = new System.Windows.Forms.RichTextBox();
-            this.exportButton3 = new System.Windows.Forms.Button();
-            this.executeButton3 = new System.Windows.Forms.Button();
             this.loadButton3 = new System.Windows.Forms.Button();
+            this.executeButton3 = new System.Windows.Forms.Button();
+            this.exportButton3 = new System.Windows.Forms.Button();
+            this.query14 = new System.Windows.Forms.RichTextBox();
+            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.query12 = new System.Windows.Forms.RichTextBox();
+            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.query11 = new System.Windows.Forms.RichTextBox();
+            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.query13 = new System.Windows.Forms.RichTextBox();
+            this.textBox14 = new System.Windows.Forms.TextBox();
+            this.query15 = new System.Windows.Forms.RichTextBox();
+            this.textBox18 = new System.Windows.Forms.TextBox();
+            this.checkBox12 = new System.Windows.Forms.CheckBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.checkBox13 = new System.Windows.Forms.CheckBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.checkBox14 = new System.Windows.Forms.CheckBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.checkBox15 = new System.Windows.Forms.CheckBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.checkBox18 = new System.Windows.Forms.CheckBox();
+            this.label18 = new System.Windows.Forms.Label();
             this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.label10 = new System.Windows.Forms.Label();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.checkBox11 = new System.Windows.Forms.CheckBox();
-            this.query10 = new System.Windows.Forms.RichTextBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.checkBox9 = new System.Windows.Forms.CheckBox();
-            this.query8 = new System.Windows.Forms.RichTextBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.checkBox8 = new System.Windows.Forms.CheckBox();
-            this.query6 = new System.Windows.Forms.RichTextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.checkBox7 = new System.Windows.Forms.CheckBox();
-            this.query7 = new System.Windows.Forms.RichTextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.checkBox6 = new System.Windows.Forms.CheckBox();
-            this.query9 = new System.Windows.Forms.RichTextBox();
-            this.exportButton2 = new System.Windows.Forms.Button();
-            this.executeButton2 = new System.Windows.Forms.Button();
             this.loadButton2 = new System.Windows.Forms.Button();
+            this.executeButton2 = new System.Windows.Forms.Button();
+            this.exportButton2 = new System.Windows.Forms.Button();
+            this.query9 = new System.Windows.Forms.RichTextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.query7 = new System.Windows.Forms.RichTextBox();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.query6 = new System.Windows.Forms.RichTextBox();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.query8 = new System.Windows.Forms.RichTextBox();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.query10 = new System.Windows.Forms.RichTextBox();
+            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.checkBox6 = new System.Windows.Forms.CheckBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.checkBox7 = new System.Windows.Forms.CheckBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.checkBox8 = new System.Windows.Forms.CheckBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.checkBox9 = new System.Windows.Forms.CheckBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.checkBox11 = new System.Windows.Forms.CheckBox();
+            this.label10 = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.exportButton1 = new System.Windows.Forms.Button();
-            this.label16 = new System.Windows.Forms.Label();
-            this.textBox16 = new System.Windows.Forms.TextBox();
-            this.checkBox16 = new System.Windows.Forms.CheckBox();
-            this.query5 = new System.Windows.Forms.RichTextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.query3 = new System.Windows.Forms.RichTextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.query1 = new System.Windows.Forms.RichTextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.query2 = new System.Windows.Forms.RichTextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.query4 = new System.Windows.Forms.RichTextBox();
-            this.executeButton1 = new System.Windows.Forms.Button();
-            this.loadButton1 = new System.Windows.Forms.Button();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.TB_textlink = new System.Windows.Forms.Label();
+            this.TB_from_setting = new System.Windows.Forms.Label();
+            this.loadButton1 = new System.Windows.Forms.Button();
+            this.executeButton1 = new System.Windows.Forms.Button();
+            this.query4 = new System.Windows.Forms.RichTextBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.query2 = new System.Windows.Forms.RichTextBox();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.query1 = new System.Windows.Forms.RichTextBox();
+            this.checkBox3 = new System.Windows.Forms.CheckBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.query3 = new System.Windows.Forms.RichTextBox();
+            this.checkBox4 = new System.Windows.Forms.CheckBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.query5 = new System.Windows.Forms.RichTextBox();
+            this.checkBox16 = new System.Windows.Forms.CheckBox();
+            this.textBox16 = new System.Windows.Forms.TextBox();
+            this.label16 = new System.Windows.Forms.Label();
+            this.exportButton1 = new System.Windows.Forms.Button();
             this.tabPage4.SuspendLayout();
             this.tabPage3.SuspendLayout();
             this.tabControl1.SuspendLayout();
@@ -141,228 +143,18 @@ namespace SQLChecker2021
             this.tabPage4.TabIndex = 2;
             this.tabPage4.Text = "Query 11-15";
             // 
-            // label18
+            // loadButton3
             // 
-            this.label18.AutoSize = true;
-            this.label18.ForeColor = System.Drawing.SystemColors.Control;
-            this.label18.Location = new System.Drawing.Point(40, 317);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(60, 15);
-            this.label18.TabIndex = 162;
-            this.label18.Text = "15 Marks:";
-            // 
-            // textBox18
-            // 
-            this.textBox18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.textBox18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox18.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox18.ForeColor = System.Drawing.SystemColors.Menu;
-            this.textBox18.Location = new System.Drawing.Point(105, 315);
-            this.textBox18.Name = "textBox18";
-            this.textBox18.Size = new System.Drawing.Size(32, 21);
-            this.textBox18.TabIndex = 163;
-            this.textBox18.Text = "1";
-            // 
-            // checkBox18
-            // 
-            this.checkBox18.AutoSize = true;
-            this.checkBox18.Location = new System.Drawing.Point(19, 318);
-            this.checkBox18.Name = "checkBox18";
-            this.checkBox18.Size = new System.Drawing.Size(15, 14);
-            this.checkBox18.TabIndex = 164;
-            this.checkBox18.UseVisualStyleBackColor = true;
-            // 
-            // query15
-            // 
-            this.query15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.query15.ForeColor = System.Drawing.Color.White;
-            this.query15.Location = new System.Drawing.Point(19, 340);
-            this.query15.Name = "query15";
-            this.query15.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
-            this.query15.Size = new System.Drawing.Size(374, 109);
-            this.query15.TabIndex = 165;
-            this.query15.Text = "";
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.ForeColor = System.Drawing.SystemColors.Control;
-            this.label14.Location = new System.Drawing.Point(40, 165);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(60, 15);
-            this.label14.TabIndex = 170;
-            this.label14.Text = "13 Marks:";
-            // 
-            // textBox14
-            // 
-            this.textBox14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.textBox14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox14.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox14.ForeColor = System.Drawing.SystemColors.Menu;
-            this.textBox14.Location = new System.Drawing.Point(105, 163);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(32, 21);
-            this.textBox14.TabIndex = 171;
-            this.textBox14.Text = "1";
-            // 
-            // checkBox15
-            // 
-            this.checkBox15.AutoSize = true;
-            this.checkBox15.Location = new System.Drawing.Point(19, 166);
-            this.checkBox15.Name = "checkBox15";
-            this.checkBox15.Size = new System.Drawing.Size(15, 14);
-            this.checkBox15.TabIndex = 172;
-            this.checkBox15.UseVisualStyleBackColor = true;
-            // 
-            // query13
-            // 
-            this.query13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.query13.ForeColor = System.Drawing.Color.White;
-            this.query13.Location = new System.Drawing.Point(19, 188);
-            this.query13.Name = "query13";
-            this.query13.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
-            this.query13.Size = new System.Drawing.Size(374, 109);
-            this.query13.TabIndex = 173;
-            this.query13.Text = "";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.ForeColor = System.Drawing.SystemColors.Control;
-            this.label13.Location = new System.Drawing.Point(40, 16);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(59, 15);
-            this.label13.TabIndex = 174;
-            this.label13.Text = "11 Marks:";
-            // 
-            // textBox13
-            // 
-            this.textBox13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.textBox13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox13.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox13.ForeColor = System.Drawing.SystemColors.Menu;
-            this.textBox13.Location = new System.Drawing.Point(105, 12);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(32, 21);
-            this.textBox13.TabIndex = 175;
-            this.textBox13.Text = "1";
-            // 
-            // checkBox14
-            // 
-            this.checkBox14.AutoSize = true;
-            this.checkBox14.Location = new System.Drawing.Point(19, 17);
-            this.checkBox14.Name = "checkBox14";
-            this.checkBox14.Size = new System.Drawing.Size(15, 14);
-            this.checkBox14.TabIndex = 176;
-            this.checkBox14.UseVisualStyleBackColor = true;
-            // 
-            // query11
-            // 
-            this.query11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.query11.ForeColor = System.Drawing.Color.White;
-            this.query11.Location = new System.Drawing.Point(19, 39);
-            this.query11.Name = "query11";
-            this.query11.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
-            this.query11.Size = new System.Drawing.Size(374, 109);
-            this.query11.TabIndex = 177;
-            this.query11.Text = "";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.ForeColor = System.Drawing.SystemColors.Control;
-            this.label12.Location = new System.Drawing.Point(474, 16);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(60, 15);
-            this.label12.TabIndex = 178;
-            this.label12.Text = "12 Marks:";
-            // 
-            // textBox12
-            // 
-            this.textBox12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.textBox12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox12.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox12.ForeColor = System.Drawing.SystemColors.Menu;
-            this.textBox12.Location = new System.Drawing.Point(534, 12);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(32, 21);
-            this.textBox12.TabIndex = 179;
-            this.textBox12.Text = "1";
-            // 
-            // checkBox13
-            // 
-            this.checkBox13.AutoSize = true;
-            this.checkBox13.Location = new System.Drawing.Point(453, 17);
-            this.checkBox13.Name = "checkBox13";
-            this.checkBox13.Size = new System.Drawing.Size(15, 14);
-            this.checkBox13.TabIndex = 180;
-            this.checkBox13.UseVisualStyleBackColor = true;
-            // 
-            // query12
-            // 
-            this.query12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.query12.ForeColor = System.Drawing.Color.White;
-            this.query12.Location = new System.Drawing.Point(453, 39);
-            this.query12.Name = "query12";
-            this.query12.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
-            this.query12.Size = new System.Drawing.Size(374, 109);
-            this.query12.TabIndex = 181;
-            this.query12.Text = "";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.ForeColor = System.Drawing.SystemColors.Control;
-            this.label11.Location = new System.Drawing.Point(474, 165);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(60, 15);
-            this.label11.TabIndex = 182;
-            this.label11.Text = "14 Marks:";
-            // 
-            // textBox11
-            // 
-            this.textBox11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.textBox11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox11.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox11.ForeColor = System.Drawing.SystemColors.Menu;
-            this.textBox11.Location = new System.Drawing.Point(534, 163);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(32, 21);
-            this.textBox11.TabIndex = 183;
-            this.textBox11.Text = "1";
-            // 
-            // checkBox12
-            // 
-            this.checkBox12.AutoSize = true;
-            this.checkBox12.Location = new System.Drawing.Point(453, 166);
-            this.checkBox12.Name = "checkBox12";
-            this.checkBox12.Size = new System.Drawing.Size(15, 14);
-            this.checkBox12.TabIndex = 184;
-            this.checkBox12.UseVisualStyleBackColor = true;
-            // 
-            // query14
-            // 
-            this.query14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.query14.ForeColor = System.Drawing.Color.White;
-            this.query14.Location = new System.Drawing.Point(453, 188);
-            this.query14.Name = "query14";
-            this.query14.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
-            this.query14.Size = new System.Drawing.Size(374, 109);
-            this.query14.TabIndex = 185;
-            this.query14.Text = "";
-            // 
-            // exportButton3
-            // 
-            this.exportButton3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.exportButton3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.exportButton3.Font = new System.Drawing.Font("Segoe Print", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.exportButton3.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.exportButton3.Location = new System.Drawing.Point(376, 454);
-            this.exportButton3.Name = "exportButton3";
-            this.exportButton3.Size = new System.Drawing.Size(92, 26);
-            this.exportButton3.TabIndex = 186;
-            this.exportButton3.Text = "Export";
-            this.exportButton3.UseVisualStyleBackColor = false;
+            this.loadButton3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
+            this.loadButton3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.loadButton3.Font = new System.Drawing.Font("Segoe Print", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.loadButton3.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.loadButton3.Location = new System.Drawing.Point(275, 454);
+            this.loadButton3.Name = "loadButton3";
+            this.loadButton3.Size = new System.Drawing.Size(92, 26);
+            this.loadButton3.TabIndex = 188;
+            this.loadButton3.Text = "Load";
+            this.loadButton3.UseVisualStyleBackColor = false;
             // 
             // executeButton3
             // 
@@ -378,18 +170,228 @@ namespace SQLChecker2021
             this.executeButton3.UseVisualStyleBackColor = false;
             this.executeButton3.Click += new System.EventHandler(this.executeButton3_Click);
             // 
-            // loadButton3
+            // exportButton3
             // 
-            this.loadButton3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.loadButton3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.loadButton3.Font = new System.Drawing.Font("Segoe Print", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.loadButton3.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.loadButton3.Location = new System.Drawing.Point(275, 454);
-            this.loadButton3.Name = "loadButton3";
-            this.loadButton3.Size = new System.Drawing.Size(92, 26);
-            this.loadButton3.TabIndex = 188;
-            this.loadButton3.Text = "Load";
-            this.loadButton3.UseVisualStyleBackColor = false;
+            this.exportButton3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
+            this.exportButton3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.exportButton3.Font = new System.Drawing.Font("Segoe Print", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.exportButton3.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.exportButton3.Location = new System.Drawing.Point(376, 454);
+            this.exportButton3.Name = "exportButton3";
+            this.exportButton3.Size = new System.Drawing.Size(92, 26);
+            this.exportButton3.TabIndex = 186;
+            this.exportButton3.Text = "Export";
+            this.exportButton3.UseVisualStyleBackColor = false;
+            // 
+            // query14
+            // 
+            this.query14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
+            this.query14.ForeColor = System.Drawing.Color.White;
+            this.query14.Location = new System.Drawing.Point(453, 188);
+            this.query14.Name = "query14";
+            this.query14.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
+            this.query14.Size = new System.Drawing.Size(374, 109);
+            this.query14.TabIndex = 185;
+            this.query14.Text = "";
+            // 
+            // textBox11
+            // 
+            this.textBox11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
+            this.textBox11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox11.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox11.ForeColor = System.Drawing.SystemColors.Menu;
+            this.textBox11.Location = new System.Drawing.Point(534, 163);
+            this.textBox11.Name = "textBox11";
+            this.textBox11.Size = new System.Drawing.Size(32, 21);
+            this.textBox11.TabIndex = 183;
+            this.textBox11.Text = "1";
+            // 
+            // query12
+            // 
+            this.query12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
+            this.query12.ForeColor = System.Drawing.Color.White;
+            this.query12.Location = new System.Drawing.Point(453, 39);
+            this.query12.Name = "query12";
+            this.query12.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
+            this.query12.Size = new System.Drawing.Size(374, 109);
+            this.query12.TabIndex = 181;
+            this.query12.Text = "";
+            // 
+            // textBox12
+            // 
+            this.textBox12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
+            this.textBox12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox12.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox12.ForeColor = System.Drawing.SystemColors.Menu;
+            this.textBox12.Location = new System.Drawing.Point(534, 12);
+            this.textBox12.Name = "textBox12";
+            this.textBox12.Size = new System.Drawing.Size(32, 21);
+            this.textBox12.TabIndex = 179;
+            this.textBox12.Text = "1";
+            // 
+            // query11
+            // 
+            this.query11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
+            this.query11.ForeColor = System.Drawing.Color.White;
+            this.query11.Location = new System.Drawing.Point(19, 39);
+            this.query11.Name = "query11";
+            this.query11.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
+            this.query11.Size = new System.Drawing.Size(374, 109);
+            this.query11.TabIndex = 177;
+            this.query11.Text = "";
+            // 
+            // textBox13
+            // 
+            this.textBox13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
+            this.textBox13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox13.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox13.ForeColor = System.Drawing.SystemColors.Menu;
+            this.textBox13.Location = new System.Drawing.Point(105, 12);
+            this.textBox13.Name = "textBox13";
+            this.textBox13.Size = new System.Drawing.Size(32, 21);
+            this.textBox13.TabIndex = 175;
+            this.textBox13.Text = "1";
+            // 
+            // query13
+            // 
+            this.query13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
+            this.query13.ForeColor = System.Drawing.Color.White;
+            this.query13.Location = new System.Drawing.Point(19, 188);
+            this.query13.Name = "query13";
+            this.query13.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
+            this.query13.Size = new System.Drawing.Size(374, 109);
+            this.query13.TabIndex = 173;
+            this.query13.Text = "";
+            // 
+            // textBox14
+            // 
+            this.textBox14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
+            this.textBox14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox14.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox14.ForeColor = System.Drawing.SystemColors.Menu;
+            this.textBox14.Location = new System.Drawing.Point(105, 163);
+            this.textBox14.Name = "textBox14";
+            this.textBox14.Size = new System.Drawing.Size(32, 21);
+            this.textBox14.TabIndex = 171;
+            this.textBox14.Text = "1";
+            // 
+            // query15
+            // 
+            this.query15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
+            this.query15.ForeColor = System.Drawing.Color.White;
+            this.query15.Location = new System.Drawing.Point(19, 340);
+            this.query15.Name = "query15";
+            this.query15.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
+            this.query15.Size = new System.Drawing.Size(374, 109);
+            this.query15.TabIndex = 165;
+            this.query15.Text = "";
+            // 
+            // textBox18
+            // 
+            this.textBox18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
+            this.textBox18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox18.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox18.ForeColor = System.Drawing.SystemColors.Menu;
+            this.textBox18.Location = new System.Drawing.Point(105, 315);
+            this.textBox18.Name = "textBox18";
+            this.textBox18.Size = new System.Drawing.Size(32, 21);
+            this.textBox18.TabIndex = 163;
+            this.textBox18.Text = "1";
+            // 
+            // checkBox12
+            // 
+            this.checkBox12.AutoSize = true;
+            this.checkBox12.Location = new System.Drawing.Point(453, 166);
+            this.checkBox12.Name = "checkBox12";
+            this.checkBox12.Size = new System.Drawing.Size(15, 14);
+            this.checkBox12.TabIndex = 184;
+            this.checkBox12.UseVisualStyleBackColor = true;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.ForeColor = System.Drawing.SystemColors.Control;
+            this.label11.Location = new System.Drawing.Point(474, 165);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(60, 15);
+            this.label11.TabIndex = 182;
+            this.label11.Text = "14 Marks:";
+            // 
+            // checkBox13
+            // 
+            this.checkBox13.AutoSize = true;
+            this.checkBox13.Location = new System.Drawing.Point(453, 17);
+            this.checkBox13.Name = "checkBox13";
+            this.checkBox13.Size = new System.Drawing.Size(15, 14);
+            this.checkBox13.TabIndex = 180;
+            this.checkBox13.UseVisualStyleBackColor = true;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.ForeColor = System.Drawing.SystemColors.Control;
+            this.label12.Location = new System.Drawing.Point(474, 16);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(60, 15);
+            this.label12.TabIndex = 178;
+            this.label12.Text = "12 Marks:";
+            // 
+            // checkBox14
+            // 
+            this.checkBox14.AutoSize = true;
+            this.checkBox14.Location = new System.Drawing.Point(19, 17);
+            this.checkBox14.Name = "checkBox14";
+            this.checkBox14.Size = new System.Drawing.Size(15, 14);
+            this.checkBox14.TabIndex = 176;
+            this.checkBox14.UseVisualStyleBackColor = true;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.ForeColor = System.Drawing.SystemColors.Control;
+            this.label13.Location = new System.Drawing.Point(40, 16);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(59, 15);
+            this.label13.TabIndex = 174;
+            this.label13.Text = "11 Marks:";
+            // 
+            // checkBox15
+            // 
+            this.checkBox15.AutoSize = true;
+            this.checkBox15.Location = new System.Drawing.Point(19, 166);
+            this.checkBox15.Name = "checkBox15";
+            this.checkBox15.Size = new System.Drawing.Size(15, 14);
+            this.checkBox15.TabIndex = 172;
+            this.checkBox15.UseVisualStyleBackColor = true;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.ForeColor = System.Drawing.SystemColors.Control;
+            this.label14.Location = new System.Drawing.Point(40, 165);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(60, 15);
+            this.label14.TabIndex = 170;
+            this.label14.Text = "13 Marks:";
+            // 
+            // checkBox18
+            // 
+            this.checkBox18.AutoSize = true;
+            this.checkBox18.Location = new System.Drawing.Point(19, 318);
+            this.checkBox18.Name = "checkBox18";
+            this.checkBox18.Size = new System.Drawing.Size(15, 14);
+            this.checkBox18.TabIndex = 164;
+            this.checkBox18.UseVisualStyleBackColor = true;
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.ForeColor = System.Drawing.SystemColors.Control;
+            this.label18.Location = new System.Drawing.Point(40, 317);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(60, 15);
+            this.label18.TabIndex = 162;
+            this.label18.Text = "15 Marks:";
             // 
             // tabPage3
             // 
@@ -424,228 +426,18 @@ namespace SQLChecker2021
             this.tabPage3.TabIndex = 1;
             this.tabPage3.Text = "Query 6-10";
             // 
-            // label10
+            // loadButton2
             // 
-            this.label10.AutoSize = true;
-            this.label10.ForeColor = System.Drawing.SystemColors.Control;
-            this.label10.Location = new System.Drawing.Point(40, 317);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(60, 15);
-            this.label10.TabIndex = 162;
-            this.label10.Text = "10 Marks:";
-            // 
-            // textBox10
-            // 
-            this.textBox10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.textBox10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox10.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox10.ForeColor = System.Drawing.SystemColors.Menu;
-            this.textBox10.Location = new System.Drawing.Point(99, 315);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(32, 21);
-            this.textBox10.TabIndex = 163;
-            this.textBox10.Text = "1";
-            // 
-            // checkBox11
-            // 
-            this.checkBox11.AutoSize = true;
-            this.checkBox11.Location = new System.Drawing.Point(19, 318);
-            this.checkBox11.Name = "checkBox11";
-            this.checkBox11.Size = new System.Drawing.Size(15, 14);
-            this.checkBox11.TabIndex = 164;
-            this.checkBox11.UseVisualStyleBackColor = true;
-            // 
-            // query10
-            // 
-            this.query10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.query10.ForeColor = System.Drawing.Color.White;
-            this.query10.Location = new System.Drawing.Point(19, 340);
-            this.query10.Name = "query10";
-            this.query10.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
-            this.query10.Size = new System.Drawing.Size(374, 109);
-            this.query10.TabIndex = 165;
-            this.query10.Text = "";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.ForeColor = System.Drawing.SystemColors.Control;
-            this.label8.Location = new System.Drawing.Point(40, 165);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(53, 15);
-            this.label8.TabIndex = 170;
-            this.label8.Text = "8 Marks:";
-            // 
-            // textBox8
-            // 
-            this.textBox8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.textBox8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox8.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox8.ForeColor = System.Drawing.SystemColors.Menu;
-            this.textBox8.Location = new System.Drawing.Point(99, 163);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(32, 21);
-            this.textBox8.TabIndex = 171;
-            this.textBox8.Text = "1";
-            // 
-            // checkBox9
-            // 
-            this.checkBox9.AutoSize = true;
-            this.checkBox9.Location = new System.Drawing.Point(19, 166);
-            this.checkBox9.Name = "checkBox9";
-            this.checkBox9.Size = new System.Drawing.Size(15, 14);
-            this.checkBox9.TabIndex = 172;
-            this.checkBox9.UseVisualStyleBackColor = true;
-            // 
-            // query8
-            // 
-            this.query8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.query8.ForeColor = System.Drawing.Color.White;
-            this.query8.Location = new System.Drawing.Point(19, 188);
-            this.query8.Name = "query8";
-            this.query8.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
-            this.query8.Size = new System.Drawing.Size(374, 109);
-            this.query8.TabIndex = 173;
-            this.query8.Text = "";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.ForeColor = System.Drawing.SystemColors.Control;
-            this.label7.Location = new System.Drawing.Point(40, 16);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(53, 15);
-            this.label7.TabIndex = 174;
-            this.label7.Text = "6 Marks:";
-            // 
-            // textBox7
-            // 
-            this.textBox7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.textBox7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox7.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox7.ForeColor = System.Drawing.SystemColors.Menu;
-            this.textBox7.Location = new System.Drawing.Point(99, 12);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(32, 21);
-            this.textBox7.TabIndex = 175;
-            this.textBox7.Text = "1";
-            // 
-            // checkBox8
-            // 
-            this.checkBox8.AutoSize = true;
-            this.checkBox8.Location = new System.Drawing.Point(19, 17);
-            this.checkBox8.Name = "checkBox8";
-            this.checkBox8.Size = new System.Drawing.Size(15, 14);
-            this.checkBox8.TabIndex = 176;
-            this.checkBox8.UseVisualStyleBackColor = true;
-            // 
-            // query6
-            // 
-            this.query6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.query6.ForeColor = System.Drawing.Color.White;
-            this.query6.Location = new System.Drawing.Point(19, 39);
-            this.query6.Name = "query6";
-            this.query6.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
-            this.query6.Size = new System.Drawing.Size(374, 109);
-            this.query6.TabIndex = 177;
-            this.query6.Text = "";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.ForeColor = System.Drawing.SystemColors.Control;
-            this.label6.Location = new System.Drawing.Point(474, 16);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(53, 15);
-            this.label6.TabIndex = 178;
-            this.label6.Text = "7 Marks:";
-            // 
-            // textBox6
-            // 
-            this.textBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox6.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.ForeColor = System.Drawing.SystemColors.Menu;
-            this.textBox6.Location = new System.Drawing.Point(533, 12);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(32, 21);
-            this.textBox6.TabIndex = 179;
-            this.textBox6.Text = "1";
-            // 
-            // checkBox7
-            // 
-            this.checkBox7.AutoSize = true;
-            this.checkBox7.Location = new System.Drawing.Point(453, 17);
-            this.checkBox7.Name = "checkBox7";
-            this.checkBox7.Size = new System.Drawing.Size(15, 14);
-            this.checkBox7.TabIndex = 180;
-            this.checkBox7.UseVisualStyleBackColor = true;
-            // 
-            // query7
-            // 
-            this.query7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.query7.ForeColor = System.Drawing.Color.White;
-            this.query7.Location = new System.Drawing.Point(453, 39);
-            this.query7.Name = "query7";
-            this.query7.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
-            this.query7.Size = new System.Drawing.Size(374, 109);
-            this.query7.TabIndex = 181;
-            this.query7.Text = "";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.ForeColor = System.Drawing.SystemColors.Control;
-            this.label5.Location = new System.Drawing.Point(474, 165);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(53, 15);
-            this.label5.TabIndex = 182;
-            this.label5.Text = "9 Marks:";
-            // 
-            // textBox5
-            // 
-            this.textBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox5.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.ForeColor = System.Drawing.SystemColors.Menu;
-            this.textBox5.Location = new System.Drawing.Point(533, 163);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(32, 21);
-            this.textBox5.TabIndex = 183;
-            this.textBox5.Text = "1";
-            // 
-            // checkBox6
-            // 
-            this.checkBox6.AutoSize = true;
-            this.checkBox6.Location = new System.Drawing.Point(453, 166);
-            this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(15, 14);
-            this.checkBox6.TabIndex = 184;
-            this.checkBox6.UseVisualStyleBackColor = true;
-            // 
-            // query9
-            // 
-            this.query9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.query9.ForeColor = System.Drawing.Color.White;
-            this.query9.Location = new System.Drawing.Point(453, 188);
-            this.query9.Name = "query9";
-            this.query9.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
-            this.query9.Size = new System.Drawing.Size(374, 109);
-            this.query9.TabIndex = 185;
-            this.query9.Text = "";
-            // 
-            // exportButton2
-            // 
-            this.exportButton2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.exportButton2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.exportButton2.Font = new System.Drawing.Font("Segoe Print", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.exportButton2.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.exportButton2.Location = new System.Drawing.Point(376, 454);
-            this.exportButton2.Name = "exportButton2";
-            this.exportButton2.Size = new System.Drawing.Size(92, 26);
-            this.exportButton2.TabIndex = 186;
-            this.exportButton2.Text = "Export";
-            this.exportButton2.UseVisualStyleBackColor = false;
+            this.loadButton2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
+            this.loadButton2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.loadButton2.Font = new System.Drawing.Font("Segoe Print", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.loadButton2.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.loadButton2.Location = new System.Drawing.Point(275, 454);
+            this.loadButton2.Name = "loadButton2";
+            this.loadButton2.Size = new System.Drawing.Size(92, 26);
+            this.loadButton2.TabIndex = 188;
+            this.loadButton2.Text = "Load";
+            this.loadButton2.UseVisualStyleBackColor = false;
             // 
             // executeButton2
             // 
@@ -661,18 +453,228 @@ namespace SQLChecker2021
             this.executeButton2.UseVisualStyleBackColor = false;
             this.executeButton2.Click += new System.EventHandler(this.executeButton2_Click);
             // 
-            // loadButton2
+            // exportButton2
             // 
-            this.loadButton2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.loadButton2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.loadButton2.Font = new System.Drawing.Font("Segoe Print", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.loadButton2.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.loadButton2.Location = new System.Drawing.Point(275, 454);
-            this.loadButton2.Name = "loadButton2";
-            this.loadButton2.Size = new System.Drawing.Size(92, 26);
-            this.loadButton2.TabIndex = 188;
-            this.loadButton2.Text = "Load";
-            this.loadButton2.UseVisualStyleBackColor = false;
+            this.exportButton2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
+            this.exportButton2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.exportButton2.Font = new System.Drawing.Font("Segoe Print", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.exportButton2.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.exportButton2.Location = new System.Drawing.Point(376, 454);
+            this.exportButton2.Name = "exportButton2";
+            this.exportButton2.Size = new System.Drawing.Size(92, 26);
+            this.exportButton2.TabIndex = 186;
+            this.exportButton2.Text = "Export";
+            this.exportButton2.UseVisualStyleBackColor = false;
+            // 
+            // query9
+            // 
+            this.query9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
+            this.query9.ForeColor = System.Drawing.Color.White;
+            this.query9.Location = new System.Drawing.Point(453, 188);
+            this.query9.Name = "query9";
+            this.query9.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
+            this.query9.Size = new System.Drawing.Size(374, 109);
+            this.query9.TabIndex = 185;
+            this.query9.Text = "";
+            // 
+            // textBox5
+            // 
+            this.textBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
+            this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox5.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox5.ForeColor = System.Drawing.SystemColors.Menu;
+            this.textBox5.Location = new System.Drawing.Point(533, 163);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(32, 21);
+            this.textBox5.TabIndex = 183;
+            this.textBox5.Text = "1";
+            // 
+            // query7
+            // 
+            this.query7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
+            this.query7.ForeColor = System.Drawing.Color.White;
+            this.query7.Location = new System.Drawing.Point(453, 39);
+            this.query7.Name = "query7";
+            this.query7.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
+            this.query7.Size = new System.Drawing.Size(374, 109);
+            this.query7.TabIndex = 181;
+            this.query7.Text = "";
+            // 
+            // textBox6
+            // 
+            this.textBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
+            this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox6.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox6.ForeColor = System.Drawing.SystemColors.Menu;
+            this.textBox6.Location = new System.Drawing.Point(533, 12);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(32, 21);
+            this.textBox6.TabIndex = 179;
+            this.textBox6.Text = "1";
+            // 
+            // query6
+            // 
+            this.query6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
+            this.query6.ForeColor = System.Drawing.Color.White;
+            this.query6.Location = new System.Drawing.Point(19, 39);
+            this.query6.Name = "query6";
+            this.query6.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
+            this.query6.Size = new System.Drawing.Size(374, 109);
+            this.query6.TabIndex = 177;
+            this.query6.Text = "";
+            // 
+            // textBox7
+            // 
+            this.textBox7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
+            this.textBox7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox7.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox7.ForeColor = System.Drawing.SystemColors.Menu;
+            this.textBox7.Location = new System.Drawing.Point(99, 12);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(32, 21);
+            this.textBox7.TabIndex = 175;
+            this.textBox7.Text = "1";
+            // 
+            // query8
+            // 
+            this.query8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
+            this.query8.ForeColor = System.Drawing.Color.White;
+            this.query8.Location = new System.Drawing.Point(19, 188);
+            this.query8.Name = "query8";
+            this.query8.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
+            this.query8.Size = new System.Drawing.Size(374, 109);
+            this.query8.TabIndex = 173;
+            this.query8.Text = "";
+            // 
+            // textBox8
+            // 
+            this.textBox8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
+            this.textBox8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox8.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox8.ForeColor = System.Drawing.SystemColors.Menu;
+            this.textBox8.Location = new System.Drawing.Point(99, 163);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(32, 21);
+            this.textBox8.TabIndex = 171;
+            this.textBox8.Text = "1";
+            // 
+            // query10
+            // 
+            this.query10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
+            this.query10.ForeColor = System.Drawing.Color.White;
+            this.query10.Location = new System.Drawing.Point(19, 340);
+            this.query10.Name = "query10";
+            this.query10.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
+            this.query10.Size = new System.Drawing.Size(374, 109);
+            this.query10.TabIndex = 165;
+            this.query10.Text = "";
+            // 
+            // textBox10
+            // 
+            this.textBox10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
+            this.textBox10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox10.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox10.ForeColor = System.Drawing.SystemColors.Menu;
+            this.textBox10.Location = new System.Drawing.Point(99, 315);
+            this.textBox10.Name = "textBox10";
+            this.textBox10.Size = new System.Drawing.Size(32, 21);
+            this.textBox10.TabIndex = 163;
+            this.textBox10.Text = "1";
+            // 
+            // checkBox6
+            // 
+            this.checkBox6.AutoSize = true;
+            this.checkBox6.Location = new System.Drawing.Point(453, 166);
+            this.checkBox6.Name = "checkBox6";
+            this.checkBox6.Size = new System.Drawing.Size(15, 14);
+            this.checkBox6.TabIndex = 184;
+            this.checkBox6.UseVisualStyleBackColor = true;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.ForeColor = System.Drawing.SystemColors.Control;
+            this.label5.Location = new System.Drawing.Point(474, 165);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(53, 15);
+            this.label5.TabIndex = 182;
+            this.label5.Text = "9 Marks:";
+            // 
+            // checkBox7
+            // 
+            this.checkBox7.AutoSize = true;
+            this.checkBox7.Location = new System.Drawing.Point(453, 17);
+            this.checkBox7.Name = "checkBox7";
+            this.checkBox7.Size = new System.Drawing.Size(15, 14);
+            this.checkBox7.TabIndex = 180;
+            this.checkBox7.UseVisualStyleBackColor = true;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.ForeColor = System.Drawing.SystemColors.Control;
+            this.label6.Location = new System.Drawing.Point(474, 16);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(53, 15);
+            this.label6.TabIndex = 178;
+            this.label6.Text = "7 Marks:";
+            // 
+            // checkBox8
+            // 
+            this.checkBox8.AutoSize = true;
+            this.checkBox8.Location = new System.Drawing.Point(19, 17);
+            this.checkBox8.Name = "checkBox8";
+            this.checkBox8.Size = new System.Drawing.Size(15, 14);
+            this.checkBox8.TabIndex = 176;
+            this.checkBox8.UseVisualStyleBackColor = true;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.ForeColor = System.Drawing.SystemColors.Control;
+            this.label7.Location = new System.Drawing.Point(40, 16);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(53, 15);
+            this.label7.TabIndex = 174;
+            this.label7.Text = "6 Marks:";
+            // 
+            // checkBox9
+            // 
+            this.checkBox9.AutoSize = true;
+            this.checkBox9.Location = new System.Drawing.Point(19, 166);
+            this.checkBox9.Name = "checkBox9";
+            this.checkBox9.Size = new System.Drawing.Size(15, 14);
+            this.checkBox9.TabIndex = 172;
+            this.checkBox9.UseVisualStyleBackColor = true;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.ForeColor = System.Drawing.SystemColors.Control;
+            this.label8.Location = new System.Drawing.Point(40, 165);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(53, 15);
+            this.label8.TabIndex = 170;
+            this.label8.Text = "8 Marks:";
+            // 
+            // checkBox11
+            // 
+            this.checkBox11.AutoSize = true;
+            this.checkBox11.Location = new System.Drawing.Point(19, 318);
+            this.checkBox11.Name = "checkBox11";
+            this.checkBox11.Size = new System.Drawing.Size(15, 14);
+            this.checkBox11.TabIndex = 164;
+            this.checkBox11.UseVisualStyleBackColor = true;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.ForeColor = System.Drawing.SystemColors.Control;
+            this.label10.Location = new System.Drawing.Point(40, 317);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(60, 15);
+            this.label10.TabIndex = 162;
+            this.label10.Text = "10 Marks:";
             // 
             // tabControl1
             // 
@@ -686,235 +688,11 @@ namespace SQLChecker2021
             this.tabControl1.Size = new System.Drawing.Size(855, 518);
             this.tabControl1.TabIndex = 0;
             // 
-            // exportButton1
-            // 
-            this.exportButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.exportButton1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.exportButton1.Font = new System.Drawing.Font("Segoe Print", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.exportButton1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.exportButton1.Location = new System.Drawing.Point(376, 454);
-            this.exportButton1.Name = "exportButton1";
-            this.exportButton1.Size = new System.Drawing.Size(92, 26);
-            this.exportButton1.TabIndex = 213;
-            this.exportButton1.Text = "Export";
-            this.exportButton1.UseVisualStyleBackColor = false;
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.ForeColor = System.Drawing.SystemColors.Control;
-            this.label16.Location = new System.Drawing.Point(40, 317);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(53, 15);
-            this.label16.TabIndex = 189;
-            this.label16.Text = "5 Marks:";
-            // 
-            // textBox16
-            // 
-            this.textBox16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.textBox16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox16.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox16.ForeColor = System.Drawing.SystemColors.Menu;
-            this.textBox16.Location = new System.Drawing.Point(99, 315);
-            this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(32, 21);
-            this.textBox16.TabIndex = 190;
-            this.textBox16.Text = "1";
-            // 
-            // checkBox16
-            // 
-            this.checkBox16.AutoSize = true;
-            this.checkBox16.Location = new System.Drawing.Point(19, 318);
-            this.checkBox16.Name = "checkBox16";
-            this.checkBox16.Size = new System.Drawing.Size(15, 14);
-            this.checkBox16.TabIndex = 191;
-            this.checkBox16.UseVisualStyleBackColor = true;
-            // 
-            // query5
-            // 
-            this.query5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.query5.ForeColor = System.Drawing.Color.White;
-            this.query5.Location = new System.Drawing.Point(19, 340);
-            this.query5.Name = "query5";
-            this.query5.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
-            this.query5.Size = new System.Drawing.Size(374, 109);
-            this.query5.TabIndex = 192;
-            this.query5.Text = "";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.ForeColor = System.Drawing.SystemColors.Control;
-            this.label4.Location = new System.Drawing.Point(40, 165);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(53, 15);
-            this.label4.TabIndex = 197;
-            this.label4.Text = "3 Marks:";
-            // 
-            // checkBox4
-            // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(19, 166);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(15, 14);
-            this.checkBox4.TabIndex = 199;
-            this.checkBox4.UseVisualStyleBackColor = true;
-            // 
-            // query3
-            // 
-            this.query3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.query3.ForeColor = System.Drawing.Color.White;
-            this.query3.Location = new System.Drawing.Point(19, 188);
-            this.query3.Name = "query3";
-            this.query3.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
-            this.query3.Size = new System.Drawing.Size(374, 109);
-            this.query3.TabIndex = 200;
-            this.query3.Text = "";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.ForeColor = System.Drawing.SystemColors.Control;
-            this.label3.Location = new System.Drawing.Point(40, 16);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(53, 15);
-            this.label3.TabIndex = 201;
-            this.label3.Text = "1 Marks:";
-            // 
-            // textBox3
-            // 
-            this.textBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox3.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.ForeColor = System.Drawing.SystemColors.Menu;
-            this.textBox3.Location = new System.Drawing.Point(99, 12);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(32, 21);
-            this.textBox3.TabIndex = 202;
-            this.textBox3.Text = "1";
-            // 
-            // checkBox3
-            // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(19, 17);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(15, 14);
-            this.checkBox3.TabIndex = 203;
-            this.checkBox3.UseVisualStyleBackColor = true;
-            // 
-            // query1
-            // 
-            this.query1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.query1.ForeColor = System.Drawing.Color.White;
-            this.query1.Location = new System.Drawing.Point(19, 39);
-            this.query1.Name = "query1";
-            this.query1.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
-            this.query1.Size = new System.Drawing.Size(374, 109);
-            this.query1.TabIndex = 204;
-            this.query1.Text = "";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.ForeColor = System.Drawing.SystemColors.Control;
-            this.label2.Location = new System.Drawing.Point(474, 16);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(53, 15);
-            this.label2.TabIndex = 205;
-            this.label2.Text = "2 Marks:";
-            // 
-            // textBox2
-            // 
-            this.textBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox2.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.ForeColor = System.Drawing.SystemColors.Menu;
-            this.textBox2.Location = new System.Drawing.Point(533, 12);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(32, 21);
-            this.textBox2.TabIndex = 206;
-            this.textBox2.Text = "1";
-            // 
-            // checkBox2
-            // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(453, 17);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(15, 14);
-            this.checkBox2.TabIndex = 207;
-            this.checkBox2.UseVisualStyleBackColor = true;
-            // 
-            // query2
-            // 
-            this.query2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.query2.ForeColor = System.Drawing.Color.White;
-            this.query2.Location = new System.Drawing.Point(453, 39);
-            this.query2.Name = "query2";
-            this.query2.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
-            this.query2.Size = new System.Drawing.Size(374, 109);
-            this.query2.TabIndex = 208;
-            this.query2.Text = "";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.ForeColor = System.Drawing.SystemColors.Control;
-            this.label1.Location = new System.Drawing.Point(474, 165);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(53, 15);
-            this.label1.TabIndex = 209;
-            this.label1.Text = "4 Marks:";
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(453, 166);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(15, 14);
-            this.checkBox1.TabIndex = 211;
-            this.checkBox1.UseVisualStyleBackColor = true;
-            // 
-            // query4
-            // 
-            this.query4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.query4.ForeColor = System.Drawing.Color.White;
-            this.query4.Location = new System.Drawing.Point(453, 188);
-            this.query4.Name = "query4";
-            this.query4.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
-            this.query4.Size = new System.Drawing.Size(374, 109);
-            this.query4.TabIndex = 212;
-            this.query4.Text = "";
-            // 
-            // executeButton1
-            // 
-            this.executeButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.executeButton1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.executeButton1.Font = new System.Drawing.Font("Segoe Print", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.executeButton1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.executeButton1.Location = new System.Drawing.Point(474, 454);
-            this.executeButton1.Name = "executeButton1";
-            this.executeButton1.Size = new System.Drawing.Size(92, 26);
-            this.executeButton1.TabIndex = 214;
-            this.executeButton1.Text = "Execute";
-            this.executeButton1.UseVisualStyleBackColor = false;
-            this.executeButton1.Click += new System.EventHandler(this.executeButton1_Click);
-            // 
-            // loadButton1
-            // 
-            this.loadButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.loadButton1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.loadButton1.Font = new System.Drawing.Font("Segoe Print", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.loadButton1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.loadButton1.Location = new System.Drawing.Point(275, 454);
-            this.loadButton1.Name = "loadButton1";
-            this.loadButton1.Size = new System.Drawing.Size(92, 26);
-            this.loadButton1.TabIndex = 215;
-            this.loadButton1.Text = "Load";
-            this.loadButton1.UseVisualStyleBackColor = false;
-            // 
             // tabPage1
             // 
             this.tabPage1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
+            this.tabPage1.Controls.Add(this.TB_textlink);
+            this.tabPage1.Controls.Add(this.TB_from_setting);
             this.tabPage1.Controls.Add(this.loadButton1);
             this.tabPage1.Controls.Add(this.executeButton1);
             this.tabPage1.Controls.Add(this.query4);
@@ -947,6 +725,74 @@ namespace SQLChecker2021
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Query 1-5";
             // 
+            // TB_textlink, path of the dblocation.txt
+            // 
+            this.TB_textlink.AutoSize = true;
+            this.TB_textlink.BackColor = System.Drawing.Color.White;
+            this.TB_textlink.Location = new System.Drawing.Point(315, 315);
+            this.TB_textlink.Name = "TB_textlink";
+            this.TB_textlink.Size = new System.Drawing.Size(484, 15);
+            this.TB_textlink.TabIndex = 217;
+            this.TB_textlink.Text = frmSetting.GetPath();
+            // 
+            // TB_from_setting , content inside dblocation.txt
+            // 
+            this.TB_from_setting.AutoSize = true;
+            this.TB_from_setting.BackColor = System.Drawing.Color.White;
+            this.TB_from_setting.Font = new System.Drawing.Font("Bauhaus 93", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TB_from_setting.Location = new System.Drawing.Point(477, 368);
+            this.TB_from_setting.Name = "TB_from_setting";
+            this.TB_from_setting.Size = new System.Drawing.Size(42, 21);
+            this.TB_from_setting.TabIndex = 216;
+            this.TB_from_setting.Text = "content:" + System.IO.File.ReadAllText(frmSetting.GetPath()); 
+            // 
+            // loadButton1
+            // 
+            this.loadButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
+            this.loadButton1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.loadButton1.Font = new System.Drawing.Font("Segoe Print", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.loadButton1.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.loadButton1.Location = new System.Drawing.Point(275, 454);
+            this.loadButton1.Name = "loadButton1";
+            this.loadButton1.Size = new System.Drawing.Size(92, 26);
+            this.loadButton1.TabIndex = 215;
+            this.loadButton1.Text = "Load";
+            this.loadButton1.UseVisualStyleBackColor = false;
+            // 
+            // executeButton1
+            // 
+            this.executeButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
+            this.executeButton1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.executeButton1.Font = new System.Drawing.Font("Segoe Print", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.executeButton1.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.executeButton1.Location = new System.Drawing.Point(474, 454);
+            this.executeButton1.Name = "executeButton1";
+            this.executeButton1.Size = new System.Drawing.Size(92, 26);
+            this.executeButton1.TabIndex = 214;
+            this.executeButton1.Text = "Execute";
+            this.executeButton1.UseVisualStyleBackColor = false;
+            this.executeButton1.Click += new System.EventHandler(this.executeButton1_Click);
+            // 
+            // query4
+            // 
+            this.query4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
+            this.query4.ForeColor = System.Drawing.Color.White;
+            this.query4.Location = new System.Drawing.Point(453, 188);
+            this.query4.Name = "query4";
+            this.query4.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
+            this.query4.Size = new System.Drawing.Size(374, 109);
+            this.query4.TabIndex = 212;
+            this.query4.Text = "";
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(453, 166);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(15, 14);
+            this.checkBox1.TabIndex = 211;
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
             // textBox1
             // 
             this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
@@ -959,6 +805,120 @@ namespace SQLChecker2021
             this.textBox1.TabIndex = 210;
             this.textBox1.Text = "1";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.ForeColor = System.Drawing.SystemColors.Control;
+            this.label1.Location = new System.Drawing.Point(474, 165);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(53, 15);
+            this.label1.TabIndex = 209;
+            this.label1.Text = "4 Marks:";
+            // 
+            // query2
+            // 
+            this.query2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
+            this.query2.ForeColor = System.Drawing.Color.White;
+            this.query2.Location = new System.Drawing.Point(453, 39);
+            this.query2.Name = "query2";
+            this.query2.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
+            this.query2.Size = new System.Drawing.Size(374, 109);
+            this.query2.TabIndex = 208;
+            this.query2.Text = "";
+            // 
+            // checkBox2
+            // 
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.Location = new System.Drawing.Point(453, 17);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(15, 14);
+            this.checkBox2.TabIndex = 207;
+            this.checkBox2.UseVisualStyleBackColor = true;
+            // 
+            // textBox2
+            // 
+            this.textBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
+            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox2.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.ForeColor = System.Drawing.SystemColors.Menu;
+            this.textBox2.Location = new System.Drawing.Point(533, 12);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(32, 21);
+            this.textBox2.TabIndex = 206;
+            this.textBox2.Text = "1";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.ForeColor = System.Drawing.SystemColors.Control;
+            this.label2.Location = new System.Drawing.Point(474, 16);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(53, 15);
+            this.label2.TabIndex = 205;
+            this.label2.Text = "2 Marks:";
+            // 
+            // query1
+            // 
+            this.query1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
+            this.query1.ForeColor = System.Drawing.Color.White;
+            this.query1.Location = new System.Drawing.Point(19, 39);
+            this.query1.Name = "query1";
+            this.query1.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
+            this.query1.Size = new System.Drawing.Size(374, 109);
+            this.query1.TabIndex = 204;
+            this.query1.Text = "";
+            // 
+            // checkBox3
+            // 
+            this.checkBox3.AutoSize = true;
+            this.checkBox3.Location = new System.Drawing.Point(19, 17);
+            this.checkBox3.Name = "checkBox3";
+            this.checkBox3.Size = new System.Drawing.Size(15, 14);
+            this.checkBox3.TabIndex = 203;
+            this.checkBox3.UseVisualStyleBackColor = true;
+            // 
+            // textBox3
+            // 
+            this.textBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
+            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox3.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox3.ForeColor = System.Drawing.SystemColors.Menu;
+            this.textBox3.Location = new System.Drawing.Point(99, 12);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(32, 21);
+            this.textBox3.TabIndex = 202;
+            this.textBox3.Text = "1";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.ForeColor = System.Drawing.SystemColors.Control;
+            this.label3.Location = new System.Drawing.Point(40, 16);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(53, 15);
+            this.label3.TabIndex = 201;
+            this.label3.Text = "1 Marks:";
+            // 
+            // query3
+            // 
+            this.query3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
+            this.query3.ForeColor = System.Drawing.Color.White;
+            this.query3.Location = new System.Drawing.Point(19, 188);
+            this.query3.Name = "query3";
+            this.query3.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
+            this.query3.Size = new System.Drawing.Size(374, 109);
+            this.query3.TabIndex = 200;
+            this.query3.Text = "";
+            // 
+            // checkBox4
+            // 
+            this.checkBox4.AutoSize = true;
+            this.checkBox4.Location = new System.Drawing.Point(19, 166);
+            this.checkBox4.Name = "checkBox4";
+            this.checkBox4.Size = new System.Drawing.Size(15, 14);
+            this.checkBox4.TabIndex = 199;
+            this.checkBox4.UseVisualStyleBackColor = true;
+            // 
             // textBox4
             // 
             this.textBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
@@ -970,6 +930,71 @@ namespace SQLChecker2021
             this.textBox4.Size = new System.Drawing.Size(32, 21);
             this.textBox4.TabIndex = 198;
             this.textBox4.Text = "1";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.ForeColor = System.Drawing.SystemColors.Control;
+            this.label4.Location = new System.Drawing.Point(40, 165);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(53, 15);
+            this.label4.TabIndex = 197;
+            this.label4.Text = "3 Marks:";
+            // 
+            // query5
+            // 
+            this.query5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
+            this.query5.ForeColor = System.Drawing.Color.White;
+            this.query5.Location = new System.Drawing.Point(19, 340);
+            this.query5.Name = "query5";
+            this.query5.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
+            this.query5.Size = new System.Drawing.Size(374, 109);
+            this.query5.TabIndex = 192;
+            this.query5.Text = "";
+            // 
+            // checkBox16
+            // 
+            this.checkBox16.AutoSize = true;
+            this.checkBox16.Location = new System.Drawing.Point(19, 318);
+            this.checkBox16.Name = "checkBox16";
+            this.checkBox16.Size = new System.Drawing.Size(15, 14);
+            this.checkBox16.TabIndex = 191;
+            this.checkBox16.UseVisualStyleBackColor = true;
+            // 
+            // textBox16
+            // 
+            this.textBox16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
+            this.textBox16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox16.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox16.ForeColor = System.Drawing.SystemColors.Menu;
+            this.textBox16.Location = new System.Drawing.Point(99, 315);
+            this.textBox16.Name = "textBox16";
+            this.textBox16.Size = new System.Drawing.Size(32, 21);
+            this.textBox16.TabIndex = 190;
+            this.textBox16.Text = "1";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.ForeColor = System.Drawing.SystemColors.Control;
+            this.label16.Location = new System.Drawing.Point(40, 317);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(53, 15);
+            this.label16.TabIndex = 189;
+            this.label16.Text = "5 Marks:";
+            // 
+            // exportButton1
+            // 
+            this.exportButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
+            this.exportButton1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.exportButton1.Font = new System.Drawing.Font("Segoe Print", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.exportButton1.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.exportButton1.Location = new System.Drawing.Point(376, 454);
+            this.exportButton1.Name = "exportButton1";
+            this.exportButton1.Size = new System.Drawing.Size(92, 26);
+            this.exportButton1.TabIndex = 213;
+            this.exportButton1.Text = "Export";
+            this.exportButton1.UseVisualStyleBackColor = false;
             // 
             // frmQueries
             // 
@@ -1067,5 +1092,7 @@ namespace SQLChecker2021
         private System.Windows.Forms.TextBox textBox16;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Button exportButton1;
+        private System.Windows.Forms.Label TB_from_setting;
+        private System.Windows.Forms.Label TB_textlink;
     }
 }

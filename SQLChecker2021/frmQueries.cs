@@ -53,7 +53,7 @@ namespace SQLChecker2021
             checkSQL(query15.Text, 15);
         }
 
-        public bool checkSQL(string sql,int num)
+        public bool checkSQL(string sql, int num)
         {
 
             //SELECT * FROM Account;
@@ -189,11 +189,11 @@ namespace SQLChecker2021
             //string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\jeffe\Source\Repos\Mchei\SQLChecker2021\SQLChecker2021\SQLProjectDB.mdf;Integrated Security=True";
             string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=" + startupPath + "\\SQLProjectDB.mdf;Integrated Security=True";
             connectionString = connectionString.Replace("\\bin\\Debug", "");
-            for (int i = 0; i < tableName.Count; i++) 
-            { 
-                    using (SqlConnection connection = new SqlConnection(connectionString))
+            for (int i = 0; i < tableName.Count; i++)
+            {
+                using (SqlConnection connection = new SqlConnection(connectionString))
                 {
-                    using (var schemaCommand = new SqlCommand("SELECT * FROM "+ tableName [i]+ ";", connection))
+                    using (var schemaCommand = new SqlCommand("SELECT * FROM " + tableName[i] + ";", connection))
                     {
                         connection.Open();
                         using (var reader = schemaCommand.ExecuteReader(CommandBehavior.SchemaOnly))
@@ -215,11 +215,11 @@ namespace SQLChecker2021
         {
             //Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\jeffe\Source\Repos\Mchei\SQLChecker2021\SQLChecker2021\SQLProjectDB.mdf;Integrated Security=True
             string startupPath = System.IO.Directory.GetCurrentDirectory();
-            
+
             //string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\jeffe\Source\Repos\Mchei\SQLChecker2021\SQLChecker2021\SQLProjectDB.mdf;Integrated Security=True";
             string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=" + startupPath + "\\SQLProjectDB.mdf;Integrated Security=True";
             //connectionString = connectionString.Replace("\\bin\\Debug", "");
-            
+
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
                 connection.Open();
@@ -228,7 +228,7 @@ namespace SQLChecker2021
                 foreach (DataRow row in schema.Rows)
                 {
                     TableNames.Add(row[2].ToString());
-                    
+
                     //Console.WriteLine("row[2].ToString(): " + row[2].ToString());
                 }
                 connection.Close();
@@ -246,4 +246,5 @@ namespace SQLChecker2021
 
         }
     }
+       
 }
