@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace SQLChecker2021
+namespace Latest_27_05
 {
     public partial class frmDashboard : Form
     {
@@ -18,6 +18,11 @@ namespace SQLChecker2021
         }
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void frmDashboard_Load(object sender, EventArgs e)
         {
 
         }

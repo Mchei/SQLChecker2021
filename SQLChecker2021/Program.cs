@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace SQLChecker2021
+namespace Latest_27_05
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace SQLChecker2021
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new login());
+            Application.Run(new Login());
         }
     }
 }

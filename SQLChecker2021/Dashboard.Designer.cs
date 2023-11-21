@@ -1,7 +1,7 @@
 ﻿
-namespace SQLChecker2021
+namespace Latest_27_05
 {
-    partial class form1
+    partial class Dashboard
     {
         /// <summary>
         /// Required designer variable.
@@ -12,6 +12,7 @@ namespace SQLChecker2021
         /// Clean up any resources being used.
         /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -20,7 +21,6 @@ namespace SQLChecker2021
             }
             base.Dispose(disposing);
         }
-
         #region Windows Form Designer generated code
 
         /// <summary>
@@ -29,161 +29,90 @@ namespace SQLChecker2021
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Dashboard));
+            this.pnlHeader = new System.Windows.Forms.Panel();
             this.pnlFormLoader = new System.Windows.Forms.Panel();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.pnlNav = new System.Windows.Forms.Panel();
-            this.btnsettings = new System.Windows.Forms.Button();
-            this.btnContactUs = new System.Windows.Forms.Button();
-            this.btnCalender = new System.Windows.Forms.Button();
-            this.btnQueries = new System.Windows.Forms.Button();
-            this.btnDashbord = new System.Windows.Forms.Button();
-            this.panel2 = new System.Windows.Forms.Panel();
+            this.exit_button = new System.Windows.Forms.Button();
+            this.lbltitle = new System.Windows.Forms.Label();
+            this.Usernamepan = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.lbltitle = new System.Windows.Forms.Label();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
-            this.panel3.SuspendLayout();
+            this.pnlMenu = new System.Windows.Forms.Panel();
+            this.btnCalender = new System.Windows.Forms.Button();
+            this.btnQueries = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.pnlNav = new System.Windows.Forms.Panel();
+            this.btnsettings = new System.Windows.Forms.Button();
+            this.pnlHeader.SuspendLayout();
+            this.Usernamepan.SuspendLayout();
+            this.pnlMenu.SuspendLayout();
             this.SuspendLayout();
+            // 
+            // pnlHeader
+            // 
+            this.pnlHeader.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
+            this.pnlHeader.Controls.Add(this.pnlFormLoader);
+            this.pnlHeader.Controls.Add(this.exit_button);
+            this.pnlHeader.Controls.Add(this.lbltitle);
+            this.pnlHeader.Location = new System.Drawing.Point(194, 0);
+            this.pnlHeader.Name = "pnlHeader";
+            this.pnlHeader.Size = new System.Drawing.Size(893, 680);
+            this.pnlHeader.TabIndex = 0;
+            this.pnlHeader.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlHeader_Paint);
+            this.pnlHeader.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pnlHeader_MouseDown);
+            this.pnlHeader.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pnlHeader_MouseMove);
+            this.pnlHeader.MouseUp += new System.Windows.Forms.MouseEventHandler(this.pnlHeader_MouseUp);
             // 
             // pnlFormLoader
             // 
             this.pnlFormLoader.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
             this.pnlFormLoader.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlFormLoader.Location = new System.Drawing.Point(186, 70);
+            this.pnlFormLoader.Location = new System.Drawing.Point(0, 81);
             this.pnlFormLoader.Name = "pnlFormLoader";
-            this.pnlFormLoader.Size = new System.Drawing.Size(899, 558);
-            this.pnlFormLoader.TabIndex = 19;
+            this.pnlFormLoader.Size = new System.Drawing.Size(893, 599);
+            this.pnlFormLoader.TabIndex = 20;
             this.pnlFormLoader.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlFormLoader_Paint);
             // 
-            // panel1
+            // exit_button
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.panel1.Controls.Add(this.pnlNav);
-            this.panel1.Controls.Add(this.btnsettings);
-            this.panel1.Controls.Add(this.btnContactUs);
-            this.panel1.Controls.Add(this.btnCalender);
-            this.panel1.Controls.Add(this.btnQueries);
-            this.panel1.Controls.Add(this.btnDashbord);
-            this.panel1.Controls.Add(this.panel2);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(186, 628);
-            this.panel1.TabIndex = 15;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            this.exit_button.FlatAppearance.BorderSize = 0;
+            this.exit_button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.exit_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.exit_button.ForeColor = System.Drawing.Color.White;
+            this.exit_button.Location = new System.Drawing.Point(852, 26);
+            this.exit_button.Name = "exit_button";
+            this.exit_button.Size = new System.Drawing.Size(25, 25);
+            this.exit_button.TabIndex = 19;
+            this.exit_button.Text = "X";
+            this.exit_button.UseVisualStyleBackColor = true;
+            this.exit_button.Click += new System.EventHandler(this.exit_button_Click);
             // 
-            // pnlNav
+            // lbltitle
             // 
-            this.pnlNav.BackColor = System.Drawing.Color.White;
-            this.pnlNav.Location = new System.Drawing.Point(0, 178);
-            this.pnlNav.Name = "pnlNav";
-            this.pnlNav.Size = new System.Drawing.Size(3, 92);
-            this.pnlNav.TabIndex = 2;
+            this.lbltitle.AutoSize = true;
+            this.lbltitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 21F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbltitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(158)))), ((int)(((byte)(161)))), ((int)(((byte)(176)))));
+            this.lbltitle.Location = new System.Drawing.Point(14, 26);
+            this.lbltitle.Name = "lbltitle";
+            this.lbltitle.Size = new System.Drawing.Size(163, 32);
+            this.lbltitle.TabIndex = 17;
+            this.lbltitle.Text = "Dashboard";
             // 
-            // btnsettings
+            // Usernamepan
             // 
-            this.btnsettings.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.btnsettings.FlatAppearance.BorderSize = 0;
-            this.btnsettings.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnsettings.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnsettings.ForeColor = System.Drawing.Color.White;
-            this.btnsettings.Location = new System.Drawing.Point(0, 589);
-            this.btnsettings.Name = "btnsettings";
-            this.btnsettings.Size = new System.Drawing.Size(186, 39);
-            this.btnsettings.TabIndex = 1;
-            this.btnsettings.Text = "Settings";
-            this.btnsettings.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.btnsettings.UseVisualStyleBackColor = true;
-            this.btnsettings.Click += new System.EventHandler(this.btnsettings_Click);
-            // 
-            // btnContactUs
-            // 
-            this.btnContactUs.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnContactUs.FlatAppearance.BorderSize = 0;
-            this.btnContactUs.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnContactUs.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnContactUs.ForeColor = System.Drawing.Color.White;
-            this.btnContactUs.Location = new System.Drawing.Point(0, 226);
-            this.btnContactUs.Name = "btnContactUs";
-            this.btnContactUs.Size = new System.Drawing.Size(186, 39);
-            this.btnContactUs.TabIndex = 1;
-            this.btnContactUs.Text = "Contact Us";
-            this.btnContactUs.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.btnContactUs.UseVisualStyleBackColor = true;
-            // 
-            // btnCalender
-            // 
-            this.btnCalender.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnCalender.FlatAppearance.BorderSize = 0;
-            this.btnCalender.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCalender.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCalender.ForeColor = System.Drawing.Color.White;
-            this.btnCalender.Location = new System.Drawing.Point(0, 187);
-            this.btnCalender.Name = "btnCalender";
-            this.btnCalender.Size = new System.Drawing.Size(186, 39);
-            this.btnCalender.TabIndex = 1;
-            this.btnCalender.Text = "Calender";
-            this.btnCalender.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.btnCalender.UseVisualStyleBackColor = true;
-            this.btnCalender.Leave += new System.EventHandler(this.btnCalender_Leave);
-            // 
-            // btnQueries
-            // 
-            this.btnQueries.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnQueries.FlatAppearance.BorderSize = 0;
-            this.btnQueries.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnQueries.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnQueries.ForeColor = System.Drawing.Color.White;
-            this.btnQueries.Image = ((System.Drawing.Image)(resources.GetObject("btnQueries.Image")));
-            this.btnQueries.Location = new System.Drawing.Point(0, 148);
-            this.btnQueries.Name = "btnQueries";
-            this.btnQueries.Size = new System.Drawing.Size(186, 39);
-            this.btnQueries.TabIndex = 1;
-            this.btnQueries.Text = "Queries";
-            this.btnQueries.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.btnQueries.UseVisualStyleBackColor = true;
-            this.btnQueries.Click += new System.EventHandler(this.btnAnalytics_Click_1);
-            this.btnQueries.Leave += new System.EventHandler(this.btnQueries_Leave);
-            // 
-            // btnDashbord
-            // 
-            this.btnDashbord.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnDashbord.FlatAppearance.BorderSize = 0;
-            this.btnDashbord.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDashbord.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDashbord.ForeColor = System.Drawing.Color.White;
-            this.btnDashbord.Image = ((System.Drawing.Image)(resources.GetObject("btnDashbord.Image")));
-            this.btnDashbord.Location = new System.Drawing.Point(0, 109);
-            this.btnDashbord.Name = "btnDashbord";
-            this.btnDashbord.Size = new System.Drawing.Size(186, 39);
-            this.btnDashbord.TabIndex = 1;
-            this.btnDashbord.Text = "Dashboard";
-            this.btnDashbord.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.btnDashbord.UseVisualStyleBackColor = true;
-            this.btnDashbord.Click += new System.EventHandler(this.btnDashbord_Click_1);
-            this.btnDashbord.Leave += new System.EventHandler(this.btnDashbord_Leave_1);
-            // 
-            // panel2
-            // 
-            this.panel2.Controls.Add(this.label2);
-            this.panel2.Controls.Add(this.label1);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(186, 109);
-            this.panel2.TabIndex = 0;
+            this.Usernamepan.Controls.Add(this.label2);
+            this.Usernamepan.Controls.Add(this.label1);
+            this.Usernamepan.Location = new System.Drawing.Point(0, 1);
+            this.Usernamepan.Name = "Usernamepan";
+            this.Usernamepan.Size = new System.Drawing.Size(198, 118);
+            this.Usernamepan.TabIndex = 1;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(158)))), ((int)(((byte)(161)))), ((int)(((byte)(176)))));
-            this.label2.Location = new System.Drawing.Point(34, 54);
+            this.label2.Location = new System.Drawing.Point(45, 55);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(112, 12);
             this.label2.TabIndex = 2;
@@ -194,105 +123,131 @@ namespace SQLChecker2021
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(49, 33);
+            this.label1.Location = new System.Drawing.Point(60, 39);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(86, 16);
+            this.label1.Size = new System.Drawing.Size(89, 16);
             this.label1.TabIndex = 1;
             this.label1.Text = "User Name";
             // 
-            // button1
+            // pnlMenu
             // 
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(843, 25);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(25, 23);
-            this.button1.TabIndex = 18;
-            this.button1.Text = "X";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.pnlMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
+            this.pnlMenu.Controls.Add(this.btnCalender);
+            this.pnlMenu.Controls.Add(this.btnQueries);
+            this.pnlMenu.Controls.Add(this.panel2);
+            this.pnlMenu.Controls.Add(this.pnlNav);
+            this.pnlMenu.Controls.Add(this.btnsettings);
+            this.pnlMenu.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pnlMenu.Location = new System.Drawing.Point(0, 0);
+            this.pnlMenu.Name = "pnlMenu";
+            this.pnlMenu.Size = new System.Drawing.Size(198, 680);
+            this.pnlMenu.TabIndex = 16;
             // 
-            // textBox1
+            // btnCalender
             // 
-            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(79)))), ((int)(((byte)(99)))));
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
-            this.textBox1.Location = new System.Drawing.Point(503, 25);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(292, 23);
-            this.textBox1.TabIndex = 17;
-            this.textBox1.Text = "  Search for something...\r\n";
+            this.btnCalender.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnCalender.FlatAppearance.BorderSize = 0;
+            this.btnCalender.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCalender.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCalender.ForeColor = System.Drawing.Color.White;
+            this.btnCalender.Image = ((System.Drawing.Image)(resources.GetObject("btnCalender.Image")));
+            this.btnCalender.Location = new System.Drawing.Point(0, 125);
+            this.btnCalender.Name = "btnCalender";
+            this.btnCalender.Size = new System.Drawing.Size(198, 42);
+            this.btnCalender.TabIndex = 10;
+            this.btnCalender.Text = "Report";
+            this.btnCalender.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.btnCalender.UseVisualStyleBackColor = true;
+            this.btnCalender.Click += new System.EventHandler(this.btnCalender_Click);
             // 
-            // lbltitle
+            // btnQueries
             // 
-            this.lbltitle.AutoSize = true;
-            this.lbltitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 21F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbltitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(158)))), ((int)(((byte)(161)))), ((int)(((byte)(176)))));
-            this.lbltitle.Location = new System.Drawing.Point(38, 20);
-            this.lbltitle.Name = "lbltitle";
-            this.lbltitle.Size = new System.Drawing.Size(163, 32);
-            this.lbltitle.TabIndex = 16;
-            this.lbltitle.Text = "Dashboard";
+            this.btnQueries.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnQueries.FlatAppearance.BorderSize = 0;
+            this.btnQueries.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnQueries.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnQueries.ForeColor = System.Drawing.Color.White;
+            this.btnQueries.Image = ((System.Drawing.Image)(resources.GetObject("btnQueries.Image")));
+            this.btnQueries.Location = new System.Drawing.Point(0, 83);
+            this.btnQueries.Name = "btnQueries";
+            this.btnQueries.Size = new System.Drawing.Size(198, 42);
+            this.btnQueries.TabIndex = 9;
+            this.btnQueries.Text = "Queries";
+            this.btnQueries.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.btnQueries.UseVisualStyleBackColor = true;
+            this.btnQueries.Click += new System.EventHandler(this.btnQueries_Click);
             // 
-            // panel3
+            // panel2
             // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.panel3.Controls.Add(this.button1);
-            this.panel3.Controls.Add(this.lbltitle);
-            this.panel3.Controls.Add(this.textBox1);
-            this.panel3.Location = new System.Drawing.Point(186, 0);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(899, 78);
-            this.panel3.TabIndex = 20;
-            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint_1);
-            this.panel3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel3_MouseDown);
-            this.panel3.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel3_MouseMove);
-            this.panel3.MouseUp += new System.Windows.Forms.MouseEventHandler(this.panel3_MouseUp);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(198, 83);
+            this.panel2.TabIndex = 3;
             // 
-            // form1
+            // pnlNav
+            // 
+            this.pnlNav.BackColor = System.Drawing.Color.White;
+            this.pnlNav.Location = new System.Drawing.Point(0, 193);
+            this.pnlNav.Name = "pnlNav";
+            this.pnlNav.Size = new System.Drawing.Size(3, 100);
+            this.pnlNav.TabIndex = 2;
+            // 
+            // btnsettings
+            // 
+            this.btnsettings.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.btnsettings.FlatAppearance.BorderSize = 0;
+            this.btnsettings.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnsettings.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnsettings.ForeColor = System.Drawing.Color.White;
+            this.btnsettings.Location = new System.Drawing.Point(0, 638);
+            this.btnsettings.Name = "btnsettings";
+            this.btnsettings.Size = new System.Drawing.Size(198, 42);
+            this.btnsettings.TabIndex = 1;
+            this.btnsettings.Text = "Settings";
+            this.btnsettings.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.btnsettings.UseVisualStyleBackColor = true;
+            this.btnsettings.Click += new System.EventHandler(this.btnsettings_Click);
+            // 
+            // Dashboard
             // 
             this.AllowDrop = true;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(72)))));
-            this.ClientSize = new System.Drawing.Size(1085, 628);
-            this.Controls.Add(this.panel3);
-            this.Controls.Add(this.pnlFormLoader);
-            this.Controls.Add(this.panel1);
+            this.ClientSize = new System.Drawing.Size(1086, 680);
+            this.Controls.Add(this.pnlMenu);
+            this.Controls.Add(this.Usernamepan);
+            this.Controls.Add(this.pnlHeader);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "form1";
+            this.Name = "Dashboard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Dashboard";
-            this.Load += new System.EventHandler(this.form1_Load_1);
-            this.panel1.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
+            this.Load += new System.EventHandler(this.Dashboard_Load);
+            this.pnlHeader.ResumeLayout(false);
+            this.pnlHeader.PerformLayout();
+            this.Usernamepan.ResumeLayout(false);
+            this.Usernamepan.PerformLayout();
+            this.pnlMenu.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Panel pnlFormLoader;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Panel pnlNav;
-        private System.Windows.Forms.Button btnsettings;
-        private System.Windows.Forms.Button btnContactUs;
-        private System.Windows.Forms.Button btnCalender;
-        private System.Windows.Forms.Button btnQueries;
-        private System.Windows.Forms.Button btnDashbord;
-        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel pnlHeader;
+        private System.Windows.Forms.Button exit_button;
+        private System.Windows.Forms.Label lbltitle;
+        private System.Windows.Forms.Panel Usernamepan;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label lbltitle;
-        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Panel pnlMenu;
+        private System.Windows.Forms.Panel pnlNav;
+        private System.Windows.Forms.Button btnsettings;
+        private System.Windows.Forms.Panel pnlFormLoader;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Button btnCalender;
+        private System.Windows.Forms.Button btnQueries;
     }
 }
+

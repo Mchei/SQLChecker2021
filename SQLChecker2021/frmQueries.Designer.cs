@@ -1,5 +1,5 @@
 ﻿
-namespace SQLChecker2021
+namespace Latest_27_05
 {
     partial class frmQueries
     {
@@ -29,1070 +29,784 @@ namespace SQLChecker2021
         /// </summary>
         private void InitializeComponent()
         {
-            this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.loadButton3 = new System.Windows.Forms.Button();
-            this.executeButton3 = new System.Windows.Forms.Button();
-            this.exportButton3 = new System.Windows.Forms.Button();
-            this.query14 = new System.Windows.Forms.RichTextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.query12 = new System.Windows.Forms.RichTextBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.query11 = new System.Windows.Forms.RichTextBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.query13 = new System.Windows.Forms.RichTextBox();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.query15 = new System.Windows.Forms.RichTextBox();
-            this.textBox18 = new System.Windows.Forms.TextBox();
-            this.checkBox12 = new System.Windows.Forms.CheckBox();
-            this.label11 = new System.Windows.Forms.Label();
-            this.checkBox13 = new System.Windows.Forms.CheckBox();
-            this.label12 = new System.Windows.Forms.Label();
-            this.checkBox14 = new System.Windows.Forms.CheckBox();
-            this.label13 = new System.Windows.Forms.Label();
-            this.checkBox15 = new System.Windows.Forms.CheckBox();
-            this.label14 = new System.Windows.Forms.Label();
-            this.checkBox18 = new System.Windows.Forms.CheckBox();
-            this.label18 = new System.Windows.Forms.Label();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.loadButton2 = new System.Windows.Forms.Button();
-            this.executeButton2 = new System.Windows.Forms.Button();
-            this.exportButton2 = new System.Windows.Forms.Button();
-            this.query9 = new System.Windows.Forms.RichTextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.query7 = new System.Windows.Forms.RichTextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.query6 = new System.Windows.Forms.RichTextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.query8 = new System.Windows.Forms.RichTextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.query10 = new System.Windows.Forms.RichTextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.checkBox6 = new System.Windows.Forms.CheckBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.checkBox7 = new System.Windows.Forms.CheckBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.checkBox8 = new System.Windows.Forms.CheckBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.checkBox9 = new System.Windows.Forms.CheckBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.checkBox11 = new System.Windows.Forms.CheckBox();
-            this.label10 = new System.Windows.Forms.Label();
-            this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.TB_textlink = new System.Windows.Forms.Label();
-            this.TB_from_setting = new System.Windows.Forms.Label();
-            this.loadButton1 = new System.Windows.Forms.Button();
-            this.executeButton1 = new System.Windows.Forms.Button();
-            this.query4 = new System.Windows.Forms.RichTextBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.query2 = new System.Windows.Forms.RichTextBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.query1 = new System.Windows.Forms.RichTextBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.query3 = new System.Windows.Forms.RichTextBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.query5 = new System.Windows.Forms.RichTextBox();
-            this.checkBox16 = new System.Windows.Forms.CheckBox();
-            this.textBox16 = new System.Windows.Forms.TextBox();
-            this.label16 = new System.Windows.Forms.Label();
-            this.exportButton1 = new System.Windows.Forms.Button();
-            this.tabPage4.SuspendLayout();
-            this.tabPage3.SuspendLayout();
-            this.tabControl1.SuspendLayout();
-            this.tabPage1.SuspendLayout();
+            this.queriesTab = new System.Windows.Forms.TabControl();
+            this.queryPageOne = new System.Windows.Forms.TabPage();
+            this.Q1004 = new System.Windows.Forms.RichTextBox();
+            this.markFour = new System.Windows.Forms.TextBox();
+            this.q4 = new System.Windows.Forms.Label();
+            this.Q1002 = new System.Windows.Forms.RichTextBox();
+            this.markTwo = new System.Windows.Forms.TextBox();
+            this.q2 = new System.Windows.Forms.Label();
+            this.Q1001 = new System.Windows.Forms.RichTextBox();
+            this.markOne = new System.Windows.Forms.TextBox();
+            this.q1 = new System.Windows.Forms.Label();
+            this.Q1003 = new System.Windows.Forms.RichTextBox();
+            this.markThree = new System.Windows.Forms.TextBox();
+            this.q3 = new System.Windows.Forms.Label();
+            this.Q1005 = new System.Windows.Forms.RichTextBox();
+            this.markFive = new System.Windows.Forms.TextBox();
+            this.q5 = new System.Windows.Forms.Label();
+            this.queryPageTwo = new System.Windows.Forms.TabPage();
+            this.Q1009 = new System.Windows.Forms.RichTextBox();
+            this.mark9 = new System.Windows.Forms.TextBox();
+            this.Q1007 = new System.Windows.Forms.RichTextBox();
+            this.mark7 = new System.Windows.Forms.TextBox();
+            this.Q1006 = new System.Windows.Forms.RichTextBox();
+            this.mark6 = new System.Windows.Forms.TextBox();
+            this.Q1008 = new System.Windows.Forms.RichTextBox();
+            this.mark8 = new System.Windows.Forms.TextBox();
+            this.Q1010 = new System.Windows.Forms.RichTextBox();
+            this.mark10 = new System.Windows.Forms.TextBox();
+            this.q9 = new System.Windows.Forms.Label();
+            this.q7 = new System.Windows.Forms.Label();
+            this.q6 = new System.Windows.Forms.Label();
+            this.q8 = new System.Windows.Forms.Label();
+            this.q10 = new System.Windows.Forms.Label();
+            this.queryPageThree = new System.Windows.Forms.TabPage();
+            this.Q1014 = new System.Windows.Forms.RichTextBox();
+            this.mark14 = new System.Windows.Forms.TextBox();
+            this.Q1012 = new System.Windows.Forms.RichTextBox();
+            this.mark12 = new System.Windows.Forms.TextBox();
+            this.Q1011 = new System.Windows.Forms.RichTextBox();
+            this.mark11 = new System.Windows.Forms.TextBox();
+            this.Q1013 = new System.Windows.Forms.RichTextBox();
+            this.mark13 = new System.Windows.Forms.TextBox();
+            this.Q1015 = new System.Windows.Forms.RichTextBox();
+            this.mark15 = new System.Windows.Forms.TextBox();
+            this.q14 = new System.Windows.Forms.Label();
+            this.q12 = new System.Windows.Forms.Label();
+            this.q11 = new System.Windows.Forms.Label();
+            this.q13 = new System.Windows.Forms.Label();
+            this.q15 = new System.Windows.Forms.Label();
+            this.executeButton = new System.Windows.Forms.Button();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.openFileDialog2 = new System.Windows.Forms.OpenFileDialog();
+            this.exportDialog = new System.Windows.Forms.FolderBrowserDialog();
+            this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
+            this.saveTemp = new System.Windows.Forms.Button();
+            this.queriesTab.SuspendLayout();
+            this.queryPageOne.SuspendLayout();
+            this.queryPageTwo.SuspendLayout();
+            this.queryPageThree.SuspendLayout();
             this.SuspendLayout();
             // 
-            // tabPage4
-            // 
-            this.tabPage4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.tabPage4.Controls.Add(this.loadButton3);
-            this.tabPage4.Controls.Add(this.executeButton3);
-            this.tabPage4.Controls.Add(this.exportButton3);
-            this.tabPage4.Controls.Add(this.query14);
-            this.tabPage4.Controls.Add(this.textBox11);
-            this.tabPage4.Controls.Add(this.query12);
-            this.tabPage4.Controls.Add(this.textBox12);
-            this.tabPage4.Controls.Add(this.query11);
-            this.tabPage4.Controls.Add(this.textBox13);
-            this.tabPage4.Controls.Add(this.query13);
-            this.tabPage4.Controls.Add(this.textBox14);
-            this.tabPage4.Controls.Add(this.query15);
-            this.tabPage4.Controls.Add(this.textBox18);
-            this.tabPage4.Controls.Add(this.checkBox12);
-            this.tabPage4.Controls.Add(this.label11);
-            this.tabPage4.Controls.Add(this.checkBox13);
-            this.tabPage4.Controls.Add(this.label12);
-            this.tabPage4.Controls.Add(this.checkBox14);
-            this.tabPage4.Controls.Add(this.label13);
-            this.tabPage4.Controls.Add(this.checkBox15);
-            this.tabPage4.Controls.Add(this.label14);
-            this.tabPage4.Controls.Add(this.checkBox18);
-            this.tabPage4.Controls.Add(this.label18);
-            this.tabPage4.Font = new System.Drawing.Font("Arial", 9F);
-            this.tabPage4.Location = new System.Drawing.Point(4, 22);
-            this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Size = new System.Drawing.Size(847, 492);
-            this.tabPage4.TabIndex = 2;
-            this.tabPage4.Text = "Query 11-15";
-            // 
-            // loadButton3
-            // 
-            this.loadButton3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.loadButton3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.loadButton3.Font = new System.Drawing.Font("Segoe Print", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.loadButton3.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.loadButton3.Location = new System.Drawing.Point(275, 454);
-            this.loadButton3.Name = "loadButton3";
-            this.loadButton3.Size = new System.Drawing.Size(92, 26);
-            this.loadButton3.TabIndex = 188;
-            this.loadButton3.Text = "Load";
-            this.loadButton3.UseVisualStyleBackColor = false;
-            // 
-            // executeButton3
-            // 
-            this.executeButton3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.executeButton3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.executeButton3.Font = new System.Drawing.Font("Segoe Print", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.executeButton3.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.executeButton3.Location = new System.Drawing.Point(474, 454);
-            this.executeButton3.Name = "executeButton3";
-            this.executeButton3.Size = new System.Drawing.Size(92, 26);
-            this.executeButton3.TabIndex = 187;
-            this.executeButton3.Text = "Execute";
-            this.executeButton3.UseVisualStyleBackColor = false;
-            this.executeButton3.Click += new System.EventHandler(this.executeButton3_Click);
-            // 
-            // exportButton3
-            // 
-            this.exportButton3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.exportButton3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.exportButton3.Font = new System.Drawing.Font("Segoe Print", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.exportButton3.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.exportButton3.Location = new System.Drawing.Point(376, 454);
-            this.exportButton3.Name = "exportButton3";
-            this.exportButton3.Size = new System.Drawing.Size(92, 26);
-            this.exportButton3.TabIndex = 186;
-            this.exportButton3.Text = "Export";
-            this.exportButton3.UseVisualStyleBackColor = false;
-            // 
-            // query14
-            // 
-            this.query14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.query14.ForeColor = System.Drawing.Color.White;
-            this.query14.Location = new System.Drawing.Point(453, 188);
-            this.query14.Name = "query14";
-            this.query14.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
-            this.query14.Size = new System.Drawing.Size(374, 109);
-            this.query14.TabIndex = 185;
-            this.query14.Text = "";
-            // 
-            // textBox11
-            // 
-            this.textBox11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.textBox11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox11.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox11.ForeColor = System.Drawing.SystemColors.Menu;
-            this.textBox11.Location = new System.Drawing.Point(534, 163);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(32, 21);
-            this.textBox11.TabIndex = 183;
-            this.textBox11.Text = "1";
-            // 
-            // query12
-            // 
-            this.query12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.query12.ForeColor = System.Drawing.Color.White;
-            this.query12.Location = new System.Drawing.Point(453, 39);
-            this.query12.Name = "query12";
-            this.query12.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
-            this.query12.Size = new System.Drawing.Size(374, 109);
-            this.query12.TabIndex = 181;
-            this.query12.Text = "";
-            // 
-            // textBox12
-            // 
-            this.textBox12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.textBox12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox12.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox12.ForeColor = System.Drawing.SystemColors.Menu;
-            this.textBox12.Location = new System.Drawing.Point(534, 12);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(32, 21);
-            this.textBox12.TabIndex = 179;
-            this.textBox12.Text = "1";
-            // 
-            // query11
-            // 
-            this.query11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.query11.ForeColor = System.Drawing.Color.White;
-            this.query11.Location = new System.Drawing.Point(19, 39);
-            this.query11.Name = "query11";
-            this.query11.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
-            this.query11.Size = new System.Drawing.Size(374, 109);
-            this.query11.TabIndex = 177;
-            this.query11.Text = "";
-            // 
-            // textBox13
-            // 
-            this.textBox13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.textBox13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox13.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox13.ForeColor = System.Drawing.SystemColors.Menu;
-            this.textBox13.Location = new System.Drawing.Point(105, 12);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(32, 21);
-            this.textBox13.TabIndex = 175;
-            this.textBox13.Text = "1";
-            // 
-            // query13
-            // 
-            this.query13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.query13.ForeColor = System.Drawing.Color.White;
-            this.query13.Location = new System.Drawing.Point(19, 188);
-            this.query13.Name = "query13";
-            this.query13.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
-            this.query13.Size = new System.Drawing.Size(374, 109);
-            this.query13.TabIndex = 173;
-            this.query13.Text = "";
-            // 
-            // textBox14
-            // 
-            this.textBox14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.textBox14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox14.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox14.ForeColor = System.Drawing.SystemColors.Menu;
-            this.textBox14.Location = new System.Drawing.Point(105, 163);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(32, 21);
-            this.textBox14.TabIndex = 171;
-            this.textBox14.Text = "1";
-            // 
-            // query15
-            // 
-            this.query15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.query15.ForeColor = System.Drawing.Color.White;
-            this.query15.Location = new System.Drawing.Point(19, 340);
-            this.query15.Name = "query15";
-            this.query15.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
-            this.query15.Size = new System.Drawing.Size(374, 109);
-            this.query15.TabIndex = 165;
-            this.query15.Text = "";
-            // 
-            // textBox18
-            // 
-            this.textBox18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.textBox18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox18.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox18.ForeColor = System.Drawing.SystemColors.Menu;
-            this.textBox18.Location = new System.Drawing.Point(105, 315);
-            this.textBox18.Name = "textBox18";
-            this.textBox18.Size = new System.Drawing.Size(32, 21);
-            this.textBox18.TabIndex = 163;
-            this.textBox18.Text = "1";
-            // 
-            // checkBox12
-            // 
-            this.checkBox12.AutoSize = true;
-            this.checkBox12.Location = new System.Drawing.Point(453, 166);
-            this.checkBox12.Name = "checkBox12";
-            this.checkBox12.Size = new System.Drawing.Size(15, 14);
-            this.checkBox12.TabIndex = 184;
-            this.checkBox12.UseVisualStyleBackColor = true;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.ForeColor = System.Drawing.SystemColors.Control;
-            this.label11.Location = new System.Drawing.Point(474, 165);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(60, 15);
-            this.label11.TabIndex = 182;
-            this.label11.Text = "14 Marks:";
-            // 
-            // checkBox13
-            // 
-            this.checkBox13.AutoSize = true;
-            this.checkBox13.Location = new System.Drawing.Point(453, 17);
-            this.checkBox13.Name = "checkBox13";
-            this.checkBox13.Size = new System.Drawing.Size(15, 14);
-            this.checkBox13.TabIndex = 180;
-            this.checkBox13.UseVisualStyleBackColor = true;
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.ForeColor = System.Drawing.SystemColors.Control;
-            this.label12.Location = new System.Drawing.Point(474, 16);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(60, 15);
-            this.label12.TabIndex = 178;
-            this.label12.Text = "12 Marks:";
-            // 
-            // checkBox14
-            // 
-            this.checkBox14.AutoSize = true;
-            this.checkBox14.Location = new System.Drawing.Point(19, 17);
-            this.checkBox14.Name = "checkBox14";
-            this.checkBox14.Size = new System.Drawing.Size(15, 14);
-            this.checkBox14.TabIndex = 176;
-            this.checkBox14.UseVisualStyleBackColor = true;
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.ForeColor = System.Drawing.SystemColors.Control;
-            this.label13.Location = new System.Drawing.Point(40, 16);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(59, 15);
-            this.label13.TabIndex = 174;
-            this.label13.Text = "11 Marks:";
-            // 
-            // checkBox15
-            // 
-            this.checkBox15.AutoSize = true;
-            this.checkBox15.Location = new System.Drawing.Point(19, 166);
-            this.checkBox15.Name = "checkBox15";
-            this.checkBox15.Size = new System.Drawing.Size(15, 14);
-            this.checkBox15.TabIndex = 172;
-            this.checkBox15.UseVisualStyleBackColor = true;
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.ForeColor = System.Drawing.SystemColors.Control;
-            this.label14.Location = new System.Drawing.Point(40, 165);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(60, 15);
-            this.label14.TabIndex = 170;
-            this.label14.Text = "13 Marks:";
-            // 
-            // checkBox18
-            // 
-            this.checkBox18.AutoSize = true;
-            this.checkBox18.Location = new System.Drawing.Point(19, 318);
-            this.checkBox18.Name = "checkBox18";
-            this.checkBox18.Size = new System.Drawing.Size(15, 14);
-            this.checkBox18.TabIndex = 164;
-            this.checkBox18.UseVisualStyleBackColor = true;
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.ForeColor = System.Drawing.SystemColors.Control;
-            this.label18.Location = new System.Drawing.Point(40, 317);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(60, 15);
-            this.label18.TabIndex = 162;
-            this.label18.Text = "15 Marks:";
-            // 
-            // tabPage3
-            // 
-            this.tabPage3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.tabPage3.Controls.Add(this.loadButton2);
-            this.tabPage3.Controls.Add(this.executeButton2);
-            this.tabPage3.Controls.Add(this.exportButton2);
-            this.tabPage3.Controls.Add(this.query9);
-            this.tabPage3.Controls.Add(this.textBox5);
-            this.tabPage3.Controls.Add(this.query7);
-            this.tabPage3.Controls.Add(this.textBox6);
-            this.tabPage3.Controls.Add(this.query6);
-            this.tabPage3.Controls.Add(this.textBox7);
-            this.tabPage3.Controls.Add(this.query8);
-            this.tabPage3.Controls.Add(this.textBox8);
-            this.tabPage3.Controls.Add(this.query10);
-            this.tabPage3.Controls.Add(this.textBox10);
-            this.tabPage3.Controls.Add(this.checkBox6);
-            this.tabPage3.Controls.Add(this.label5);
-            this.tabPage3.Controls.Add(this.checkBox7);
-            this.tabPage3.Controls.Add(this.label6);
-            this.tabPage3.Controls.Add(this.checkBox8);
-            this.tabPage3.Controls.Add(this.label7);
-            this.tabPage3.Controls.Add(this.checkBox9);
-            this.tabPage3.Controls.Add(this.label8);
-            this.tabPage3.Controls.Add(this.checkBox11);
-            this.tabPage3.Controls.Add(this.label10);
-            this.tabPage3.Font = new System.Drawing.Font("Arial", 9F);
-            this.tabPage3.Location = new System.Drawing.Point(4, 22);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(847, 492);
-            this.tabPage3.TabIndex = 1;
-            this.tabPage3.Text = "Query 6-10";
-            // 
-            // loadButton2
-            // 
-            this.loadButton2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.loadButton2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.loadButton2.Font = new System.Drawing.Font("Segoe Print", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.loadButton2.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.loadButton2.Location = new System.Drawing.Point(275, 454);
-            this.loadButton2.Name = "loadButton2";
-            this.loadButton2.Size = new System.Drawing.Size(92, 26);
-            this.loadButton2.TabIndex = 188;
-            this.loadButton2.Text = "Load";
-            this.loadButton2.UseVisualStyleBackColor = false;
-            // 
-            // executeButton2
-            // 
-            this.executeButton2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.executeButton2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.executeButton2.Font = new System.Drawing.Font("Segoe Print", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.executeButton2.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.executeButton2.Location = new System.Drawing.Point(474, 454);
-            this.executeButton2.Name = "executeButton2";
-            this.executeButton2.Size = new System.Drawing.Size(92, 26);
-            this.executeButton2.TabIndex = 187;
-            this.executeButton2.Text = "Execute";
-            this.executeButton2.UseVisualStyleBackColor = false;
-            this.executeButton2.Click += new System.EventHandler(this.executeButton2_Click);
-            // 
-            // exportButton2
-            // 
-            this.exportButton2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.exportButton2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.exportButton2.Font = new System.Drawing.Font("Segoe Print", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.exportButton2.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.exportButton2.Location = new System.Drawing.Point(376, 454);
-            this.exportButton2.Name = "exportButton2";
-            this.exportButton2.Size = new System.Drawing.Size(92, 26);
-            this.exportButton2.TabIndex = 186;
-            this.exportButton2.Text = "Export";
-            this.exportButton2.UseVisualStyleBackColor = false;
-            // 
-            // query9
-            // 
-            this.query9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.query9.ForeColor = System.Drawing.Color.White;
-            this.query9.Location = new System.Drawing.Point(453, 188);
-            this.query9.Name = "query9";
-            this.query9.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
-            this.query9.Size = new System.Drawing.Size(374, 109);
-            this.query9.TabIndex = 185;
-            this.query9.Text = "";
-            // 
-            // textBox5
-            // 
-            this.textBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox5.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.ForeColor = System.Drawing.SystemColors.Menu;
-            this.textBox5.Location = new System.Drawing.Point(533, 163);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(32, 21);
-            this.textBox5.TabIndex = 183;
-            this.textBox5.Text = "1";
-            // 
-            // query7
-            // 
-            this.query7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.query7.ForeColor = System.Drawing.Color.White;
-            this.query7.Location = new System.Drawing.Point(453, 39);
-            this.query7.Name = "query7";
-            this.query7.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
-            this.query7.Size = new System.Drawing.Size(374, 109);
-            this.query7.TabIndex = 181;
-            this.query7.Text = "";
-            // 
-            // textBox6
-            // 
-            this.textBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox6.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.ForeColor = System.Drawing.SystemColors.Menu;
-            this.textBox6.Location = new System.Drawing.Point(533, 12);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(32, 21);
-            this.textBox6.TabIndex = 179;
-            this.textBox6.Text = "1";
-            // 
-            // query6
-            // 
-            this.query6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.query6.ForeColor = System.Drawing.Color.White;
-            this.query6.Location = new System.Drawing.Point(19, 39);
-            this.query6.Name = "query6";
-            this.query6.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
-            this.query6.Size = new System.Drawing.Size(374, 109);
-            this.query6.TabIndex = 177;
-            this.query6.Text = "";
-            // 
-            // textBox7
-            // 
-            this.textBox7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.textBox7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox7.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox7.ForeColor = System.Drawing.SystemColors.Menu;
-            this.textBox7.Location = new System.Drawing.Point(99, 12);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(32, 21);
-            this.textBox7.TabIndex = 175;
-            this.textBox7.Text = "1";
-            // 
-            // query8
-            // 
-            this.query8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.query8.ForeColor = System.Drawing.Color.White;
-            this.query8.Location = new System.Drawing.Point(19, 188);
-            this.query8.Name = "query8";
-            this.query8.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
-            this.query8.Size = new System.Drawing.Size(374, 109);
-            this.query8.TabIndex = 173;
-            this.query8.Text = "";
-            // 
-            // textBox8
-            // 
-            this.textBox8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.textBox8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox8.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox8.ForeColor = System.Drawing.SystemColors.Menu;
-            this.textBox8.Location = new System.Drawing.Point(99, 163);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(32, 21);
-            this.textBox8.TabIndex = 171;
-            this.textBox8.Text = "1";
-            // 
-            // query10
-            // 
-            this.query10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.query10.ForeColor = System.Drawing.Color.White;
-            this.query10.Location = new System.Drawing.Point(19, 340);
-            this.query10.Name = "query10";
-            this.query10.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
-            this.query10.Size = new System.Drawing.Size(374, 109);
-            this.query10.TabIndex = 165;
-            this.query10.Text = "";
-            // 
-            // textBox10
-            // 
-            this.textBox10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.textBox10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox10.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox10.ForeColor = System.Drawing.SystemColors.Menu;
-            this.textBox10.Location = new System.Drawing.Point(99, 315);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(32, 21);
-            this.textBox10.TabIndex = 163;
-            this.textBox10.Text = "1";
-            // 
-            // checkBox6
-            // 
-            this.checkBox6.AutoSize = true;
-            this.checkBox6.Location = new System.Drawing.Point(453, 166);
-            this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(15, 14);
-            this.checkBox6.TabIndex = 184;
-            this.checkBox6.UseVisualStyleBackColor = true;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.ForeColor = System.Drawing.SystemColors.Control;
-            this.label5.Location = new System.Drawing.Point(474, 165);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(53, 15);
-            this.label5.TabIndex = 182;
-            this.label5.Text = "9 Marks:";
-            // 
-            // checkBox7
-            // 
-            this.checkBox7.AutoSize = true;
-            this.checkBox7.Location = new System.Drawing.Point(453, 17);
-            this.checkBox7.Name = "checkBox7";
-            this.checkBox7.Size = new System.Drawing.Size(15, 14);
-            this.checkBox7.TabIndex = 180;
-            this.checkBox7.UseVisualStyleBackColor = true;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.ForeColor = System.Drawing.SystemColors.Control;
-            this.label6.Location = new System.Drawing.Point(474, 16);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(53, 15);
-            this.label6.TabIndex = 178;
-            this.label6.Text = "7 Marks:";
-            // 
-            // checkBox8
-            // 
-            this.checkBox8.AutoSize = true;
-            this.checkBox8.Location = new System.Drawing.Point(19, 17);
-            this.checkBox8.Name = "checkBox8";
-            this.checkBox8.Size = new System.Drawing.Size(15, 14);
-            this.checkBox8.TabIndex = 176;
-            this.checkBox8.UseVisualStyleBackColor = true;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.ForeColor = System.Drawing.SystemColors.Control;
-            this.label7.Location = new System.Drawing.Point(40, 16);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(53, 15);
-            this.label7.TabIndex = 174;
-            this.label7.Text = "6 Marks:";
-            // 
-            // checkBox9
-            // 
-            this.checkBox9.AutoSize = true;
-            this.checkBox9.Location = new System.Drawing.Point(19, 166);
-            this.checkBox9.Name = "checkBox9";
-            this.checkBox9.Size = new System.Drawing.Size(15, 14);
-            this.checkBox9.TabIndex = 172;
-            this.checkBox9.UseVisualStyleBackColor = true;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.ForeColor = System.Drawing.SystemColors.Control;
-            this.label8.Location = new System.Drawing.Point(40, 165);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(53, 15);
-            this.label8.TabIndex = 170;
-            this.label8.Text = "8 Marks:";
-            // 
-            // checkBox11
-            // 
-            this.checkBox11.AutoSize = true;
-            this.checkBox11.Location = new System.Drawing.Point(19, 318);
-            this.checkBox11.Name = "checkBox11";
-            this.checkBox11.Size = new System.Drawing.Size(15, 14);
-            this.checkBox11.TabIndex = 164;
-            this.checkBox11.UseVisualStyleBackColor = true;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.ForeColor = System.Drawing.SystemColors.Control;
-            this.label10.Location = new System.Drawing.Point(40, 317);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(60, 15);
-            this.label10.TabIndex = 162;
-            this.label10.Text = "10 Marks:";
-            // 
-            // tabControl1
-            // 
-            this.tabControl1.Controls.Add(this.tabPage1);
-            this.tabControl1.Controls.Add(this.tabPage3);
-            this.tabControl1.Controls.Add(this.tabPage4);
-            this.tabControl1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.tabControl1.Location = new System.Drawing.Point(32, 30);
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(855, 518);
-            this.tabControl1.TabIndex = 0;
-            // 
-            // tabPage1
-            // 
-            this.tabPage1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.tabPage1.Controls.Add(this.TB_textlink);
-            this.tabPage1.Controls.Add(this.TB_from_setting);
-            this.tabPage1.Controls.Add(this.loadButton1);
-            this.tabPage1.Controls.Add(this.executeButton1);
-            this.tabPage1.Controls.Add(this.query4);
-            this.tabPage1.Controls.Add(this.checkBox1);
-            this.tabPage1.Controls.Add(this.textBox1);
-            this.tabPage1.Controls.Add(this.label1);
-            this.tabPage1.Controls.Add(this.query2);
-            this.tabPage1.Controls.Add(this.checkBox2);
-            this.tabPage1.Controls.Add(this.textBox2);
-            this.tabPage1.Controls.Add(this.label2);
-            this.tabPage1.Controls.Add(this.query1);
-            this.tabPage1.Controls.Add(this.checkBox3);
-            this.tabPage1.Controls.Add(this.textBox3);
-            this.tabPage1.Controls.Add(this.label3);
-            this.tabPage1.Controls.Add(this.query3);
-            this.tabPage1.Controls.Add(this.checkBox4);
-            this.tabPage1.Controls.Add(this.textBox4);
-            this.tabPage1.Controls.Add(this.label4);
-            this.tabPage1.Controls.Add(this.query5);
-            this.tabPage1.Controls.Add(this.checkBox16);
-            this.tabPage1.Controls.Add(this.textBox16);
-            this.tabPage1.Controls.Add(this.label16);
-            this.tabPage1.Controls.Add(this.exportButton1);
-            this.tabPage1.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tabPage1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.tabPage1.Location = new System.Drawing.Point(4, 22);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(847, 492);
-            this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "Query 1-5";
-            // 
-            // TB_textlink, path of the dblocation.txt
-            // 
-            this.TB_textlink.AutoSize = true;
-            this.TB_textlink.BackColor = System.Drawing.Color.White;
-            this.TB_textlink.Location = new System.Drawing.Point(315, 315);
-            this.TB_textlink.Name = "TB_textlink";
-            this.TB_textlink.Size = new System.Drawing.Size(484, 15);
-            this.TB_textlink.TabIndex = 217;
-            this.TB_textlink.Text = frmSetting.GetPath();
-            // 
-            // TB_from_setting , content inside dblocation.txt
-            // 
-            this.TB_from_setting.AutoSize = true;
-            this.TB_from_setting.BackColor = System.Drawing.Color.White;
-            this.TB_from_setting.Font = new System.Drawing.Font("Bauhaus 93", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TB_from_setting.Location = new System.Drawing.Point(477, 368);
-            this.TB_from_setting.Name = "TB_from_setting";
-            this.TB_from_setting.Size = new System.Drawing.Size(42, 21);
-            this.TB_from_setting.TabIndex = 216;
-            this.TB_from_setting.Text = "content:" + System.IO.File.ReadAllText(frmSetting.GetPath()); 
-            // 
-            // loadButton1
-            // 
-            this.loadButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.loadButton1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.loadButton1.Font = new System.Drawing.Font("Segoe Print", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.loadButton1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.loadButton1.Location = new System.Drawing.Point(275, 454);
-            this.loadButton1.Name = "loadButton1";
-            this.loadButton1.Size = new System.Drawing.Size(92, 26);
-            this.loadButton1.TabIndex = 215;
-            this.loadButton1.Text = "Load";
-            this.loadButton1.UseVisualStyleBackColor = false;
-            // 
-            // executeButton1
-            // 
-            this.executeButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.executeButton1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.executeButton1.Font = new System.Drawing.Font("Segoe Print", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.executeButton1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.executeButton1.Location = new System.Drawing.Point(474, 454);
-            this.executeButton1.Name = "executeButton1";
-            this.executeButton1.Size = new System.Drawing.Size(92, 26);
-            this.executeButton1.TabIndex = 214;
-            this.executeButton1.Text = "Execute";
-            this.executeButton1.UseVisualStyleBackColor = false;
-            this.executeButton1.Click += new System.EventHandler(this.executeButton1_Click);
-            // 
-            // query4
-            // 
-            this.query4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.query4.ForeColor = System.Drawing.Color.White;
-            this.query4.Location = new System.Drawing.Point(453, 188);
-            this.query4.Name = "query4";
-            this.query4.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
-            this.query4.Size = new System.Drawing.Size(374, 109);
-            this.query4.TabIndex = 212;
-            this.query4.Text = "";
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(453, 166);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(15, 14);
-            this.checkBox1.TabIndex = 211;
-            this.checkBox1.UseVisualStyleBackColor = true;
-            // 
-            // textBox1
-            // 
-            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox1.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.SystemColors.Menu;
-            this.textBox1.Location = new System.Drawing.Point(533, 163);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(32, 21);
-            this.textBox1.TabIndex = 210;
-            this.textBox1.Text = "1";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.ForeColor = System.Drawing.SystemColors.Control;
-            this.label1.Location = new System.Drawing.Point(474, 165);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(53, 15);
-            this.label1.TabIndex = 209;
-            this.label1.Text = "4 Marks:";
-            // 
-            // query2
-            // 
-            this.query2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.query2.ForeColor = System.Drawing.Color.White;
-            this.query2.Location = new System.Drawing.Point(453, 39);
-            this.query2.Name = "query2";
-            this.query2.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
-            this.query2.Size = new System.Drawing.Size(374, 109);
-            this.query2.TabIndex = 208;
-            this.query2.Text = "";
-            // 
-            // checkBox2
-            // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(453, 17);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(15, 14);
-            this.checkBox2.TabIndex = 207;
-            this.checkBox2.UseVisualStyleBackColor = true;
-            // 
-            // textBox2
-            // 
-            this.textBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox2.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.ForeColor = System.Drawing.SystemColors.Menu;
-            this.textBox2.Location = new System.Drawing.Point(533, 12);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(32, 21);
-            this.textBox2.TabIndex = 206;
-            this.textBox2.Text = "1";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.ForeColor = System.Drawing.SystemColors.Control;
-            this.label2.Location = new System.Drawing.Point(474, 16);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(53, 15);
-            this.label2.TabIndex = 205;
-            this.label2.Text = "2 Marks:";
-            // 
-            // query1
-            // 
-            this.query1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.query1.ForeColor = System.Drawing.Color.White;
-            this.query1.Location = new System.Drawing.Point(19, 39);
-            this.query1.Name = "query1";
-            this.query1.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
-            this.query1.Size = new System.Drawing.Size(374, 109);
-            this.query1.TabIndex = 204;
-            this.query1.Text = "";
-            // 
-            // checkBox3
-            // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(19, 17);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(15, 14);
-            this.checkBox3.TabIndex = 203;
-            this.checkBox3.UseVisualStyleBackColor = true;
-            // 
-            // textBox3
-            // 
-            this.textBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox3.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.ForeColor = System.Drawing.SystemColors.Menu;
-            this.textBox3.Location = new System.Drawing.Point(99, 12);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(32, 21);
-            this.textBox3.TabIndex = 202;
-            this.textBox3.Text = "1";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.ForeColor = System.Drawing.SystemColors.Control;
-            this.label3.Location = new System.Drawing.Point(40, 16);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(53, 15);
-            this.label3.TabIndex = 201;
-            this.label3.Text = "1 Marks:";
-            // 
-            // query3
-            // 
-            this.query3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.query3.ForeColor = System.Drawing.Color.White;
-            this.query3.Location = new System.Drawing.Point(19, 188);
-            this.query3.Name = "query3";
-            this.query3.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
-            this.query3.Size = new System.Drawing.Size(374, 109);
-            this.query3.TabIndex = 200;
-            this.query3.Text = "";
-            // 
-            // checkBox4
-            // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(19, 166);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(15, 14);
-            this.checkBox4.TabIndex = 199;
-            this.checkBox4.UseVisualStyleBackColor = true;
-            // 
-            // textBox4
-            // 
-            this.textBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox4.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.ForeColor = System.Drawing.SystemColors.Menu;
-            this.textBox4.Location = new System.Drawing.Point(99, 163);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(32, 21);
-            this.textBox4.TabIndex = 198;
-            this.textBox4.Text = "1";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.ForeColor = System.Drawing.SystemColors.Control;
-            this.label4.Location = new System.Drawing.Point(40, 165);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(53, 15);
-            this.label4.TabIndex = 197;
-            this.label4.Text = "3 Marks:";
-            // 
-            // query5
-            // 
-            this.query5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.query5.ForeColor = System.Drawing.Color.White;
-            this.query5.Location = new System.Drawing.Point(19, 340);
-            this.query5.Name = "query5";
-            this.query5.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
-            this.query5.Size = new System.Drawing.Size(374, 109);
-            this.query5.TabIndex = 192;
-            this.query5.Text = "";
-            // 
-            // checkBox16
-            // 
-            this.checkBox16.AutoSize = true;
-            this.checkBox16.Location = new System.Drawing.Point(19, 318);
-            this.checkBox16.Name = "checkBox16";
-            this.checkBox16.Size = new System.Drawing.Size(15, 14);
-            this.checkBox16.TabIndex = 191;
-            this.checkBox16.UseVisualStyleBackColor = true;
-            // 
-            // textBox16
-            // 
-            this.textBox16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.textBox16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox16.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox16.ForeColor = System.Drawing.SystemColors.Menu;
-            this.textBox16.Location = new System.Drawing.Point(99, 315);
-            this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(32, 21);
-            this.textBox16.TabIndex = 190;
-            this.textBox16.Text = "1";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.ForeColor = System.Drawing.SystemColors.Control;
-            this.label16.Location = new System.Drawing.Point(40, 317);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(53, 15);
-            this.label16.TabIndex = 189;
-            this.label16.Text = "5 Marks:";
-            // 
-            // exportButton1
-            // 
-            this.exportButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.exportButton1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.exportButton1.Font = new System.Drawing.Font("Segoe Print", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.exportButton1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.exportButton1.Location = new System.Drawing.Point(376, 454);
-            this.exportButton1.Name = "exportButton1";
-            this.exportButton1.Size = new System.Drawing.Size(92, 26);
-            this.exportButton1.TabIndex = 213;
-            this.exportButton1.Text = "Export";
-            this.exportButton1.UseVisualStyleBackColor = false;
+            // queriesTab
+            // 
+            this.queriesTab.Controls.Add(this.queryPageOne);
+            this.queriesTab.Controls.Add(this.queryPageTwo);
+            this.queriesTab.Controls.Add(this.queryPageThree);
+            this.queriesTab.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.queriesTab.Location = new System.Drawing.Point(22, 22);
+            this.queriesTab.Name = "queriesTab";
+            this.queriesTab.SelectedIndex = 0;
+            this.queriesTab.Size = new System.Drawing.Size(855, 523);
+            this.queriesTab.TabIndex = 1;
+            // 
+            // queryPageOne
+            // 
+            this.queryPageOne.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
+            this.queryPageOne.Controls.Add(this.Q1004);
+            this.queryPageOne.Controls.Add(this.markFour);
+            this.queryPageOne.Controls.Add(this.q4);
+            this.queryPageOne.Controls.Add(this.Q1002);
+            this.queryPageOne.Controls.Add(this.markTwo);
+            this.queryPageOne.Controls.Add(this.q2);
+            this.queryPageOne.Controls.Add(this.Q1001);
+            this.queryPageOne.Controls.Add(this.markOne);
+            this.queryPageOne.Controls.Add(this.q1);
+            this.queryPageOne.Controls.Add(this.Q1003);
+            this.queryPageOne.Controls.Add(this.markThree);
+            this.queryPageOne.Controls.Add(this.q3);
+            this.queryPageOne.Controls.Add(this.Q1005);
+            this.queryPageOne.Controls.Add(this.markFive);
+            this.queryPageOne.Controls.Add(this.q5);
+            this.queryPageOne.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.queryPageOne.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.queryPageOne.Location = new System.Drawing.Point(4, 22);
+            this.queryPageOne.Name = "queryPageOne";
+            this.queryPageOne.Padding = new System.Windows.Forms.Padding(3);
+            this.queryPageOne.Size = new System.Drawing.Size(847, 497);
+            this.queryPageOne.TabIndex = 0;
+            this.queryPageOne.Text = "Query 1-5";
+            // 
+            // Q1004
+            // 
+            this.Q1004.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
+            this.Q1004.ForeColor = System.Drawing.Color.White;
+            this.Q1004.Location = new System.Drawing.Point(453, 204);
+            this.Q1004.Name = "Q1004";
+            this.Q1004.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
+            this.Q1004.Size = new System.Drawing.Size(374, 118);
+            this.Q1004.TabIndex = 212;
+            this.Q1004.Text = "";
+            // 
+            // markFour
+            // 
+            this.markFour.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
+            this.markFour.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.markFour.ForeColor = System.Drawing.SystemColors.Menu;
+            this.markFour.Location = new System.Drawing.Point(796, 179);
+            this.markFour.Name = "markFour";
+            this.markFour.Size = new System.Drawing.Size(32, 22);
+            this.markFour.TabIndex = 210;
+            this.markFour.Text = "1";
+            this.markFour.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // q4
+            // 
+            this.q4.AutoSize = true;
+            this.q4.ForeColor = System.Drawing.SystemColors.Control;
+            this.q4.Location = new System.Drawing.Point(450, 183);
+            this.q4.Name = "q4";
+            this.q4.Size = new System.Drawing.Size(52, 15);
+            this.q4.TabIndex = 209;
+            this.q4.Text = "Query 4:";
+            // 
+            // Q1002
+            // 
+            this.Q1002.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
+            this.Q1002.ForeColor = System.Drawing.Color.White;
+            this.Q1002.Location = new System.Drawing.Point(453, 42);
+            this.Q1002.Name = "Q1002";
+            this.Q1002.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
+            this.Q1002.Size = new System.Drawing.Size(374, 118);
+            this.Q1002.TabIndex = 208;
+            this.Q1002.Text = "Select * from Account;";
+            // 
+            // markTwo
+            // 
+            this.markTwo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
+            this.markTwo.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.markTwo.ForeColor = System.Drawing.SystemColors.Menu;
+            this.markTwo.Location = new System.Drawing.Point(796, 15);
+            this.markTwo.Name = "markTwo";
+            this.markTwo.Size = new System.Drawing.Size(32, 22);
+            this.markTwo.TabIndex = 206;
+            this.markTwo.Text = "1";
+            this.markTwo.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // q2
+            // 
+            this.q2.AutoSize = true;
+            this.q2.ForeColor = System.Drawing.SystemColors.Control;
+            this.q2.Location = new System.Drawing.Point(450, 19);
+            this.q2.Name = "q2";
+            this.q2.Size = new System.Drawing.Size(52, 15);
+            this.q2.TabIndex = 205;
+            this.q2.Text = "Query 2:";
+            // 
+            // Q1001
+            // 
+            this.Q1001.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
+            this.Q1001.ForeColor = System.Drawing.Color.White;
+            this.Q1001.Location = new System.Drawing.Point(19, 42);
+            this.Q1001.Name = "Q1001";
+            this.Q1001.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
+            this.Q1001.Size = new System.Drawing.Size(374, 118);
+            this.Q1001.TabIndex = 204;
+            this.Q1001.Text = "Select * from Account;";
+            this.Q1001.TextChanged += new System.EventHandler(this.query1_TextChanged);
+            // 
+            // markOne
+            // 
+            this.markOne.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
+            this.markOne.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.markOne.ForeColor = System.Drawing.SystemColors.Menu;
+            this.markOne.Location = new System.Drawing.Point(360, 15);
+            this.markOne.Name = "markOne";
+            this.markOne.Size = new System.Drawing.Size(32, 22);
+            this.markOne.TabIndex = 202;
+            this.markOne.Text = "1";
+            this.markOne.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // q1
+            // 
+            this.q1.AutoSize = true;
+            this.q1.ForeColor = System.Drawing.SystemColors.Control;
+            this.q1.Location = new System.Drawing.Point(16, 19);
+            this.q1.Name = "q1";
+            this.q1.Size = new System.Drawing.Size(52, 15);
+            this.q1.TabIndex = 201;
+            this.q1.Text = "Query 1:";
+            // 
+            // Q1003
+            // 
+            this.Q1003.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
+            this.Q1003.ForeColor = System.Drawing.Color.White;
+            this.Q1003.Location = new System.Drawing.Point(19, 204);
+            this.Q1003.Name = "Q1003";
+            this.Q1003.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
+            this.Q1003.Size = new System.Drawing.Size(374, 118);
+            this.Q1003.TabIndex = 200;
+            this.Q1003.Text = "";
+            // 
+            // markThree
+            // 
+            this.markThree.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
+            this.markThree.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.markThree.ForeColor = System.Drawing.SystemColors.Menu;
+            this.markThree.Location = new System.Drawing.Point(360, 179);
+            this.markThree.Name = "markThree";
+            this.markThree.Size = new System.Drawing.Size(32, 22);
+            this.markThree.TabIndex = 198;
+            this.markThree.Text = "1";
+            this.markThree.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // q3
+            // 
+            this.q3.AutoSize = true;
+            this.q3.ForeColor = System.Drawing.SystemColors.Control;
+            this.q3.Location = new System.Drawing.Point(16, 183);
+            this.q3.Name = "q3";
+            this.q3.Size = new System.Drawing.Size(52, 15);
+            this.q3.TabIndex = 197;
+            this.q3.Text = "Query 3:";
+            // 
+            // Q1005
+            // 
+            this.Q1005.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
+            this.Q1005.ForeColor = System.Drawing.Color.White;
+            this.Q1005.Location = new System.Drawing.Point(19, 368);
+            this.Q1005.Name = "Q1005";
+            this.Q1005.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
+            this.Q1005.Size = new System.Drawing.Size(374, 118);
+            this.Q1005.TabIndex = 192;
+            this.Q1005.Text = "";
+            // 
+            // markFive
+            // 
+            this.markFive.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
+            this.markFive.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.markFive.ForeColor = System.Drawing.SystemColors.Menu;
+            this.markFive.Location = new System.Drawing.Point(360, 342);
+            this.markFive.Name = "markFive";
+            this.markFive.Size = new System.Drawing.Size(32, 22);
+            this.markFive.TabIndex = 190;
+            this.markFive.Text = "1";
+            this.markFive.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // q5
+            // 
+            this.q5.AutoSize = true;
+            this.q5.ForeColor = System.Drawing.SystemColors.Control;
+            this.q5.Location = new System.Drawing.Point(16, 346);
+            this.q5.Name = "q5";
+            this.q5.Size = new System.Drawing.Size(52, 15);
+            this.q5.TabIndex = 189;
+            this.q5.Text = "Query 5:";
+            // 
+            // queryPageTwo
+            // 
+            this.queryPageTwo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
+            this.queryPageTwo.Controls.Add(this.Q1009);
+            this.queryPageTwo.Controls.Add(this.mark9);
+            this.queryPageTwo.Controls.Add(this.Q1007);
+            this.queryPageTwo.Controls.Add(this.mark7);
+            this.queryPageTwo.Controls.Add(this.Q1006);
+            this.queryPageTwo.Controls.Add(this.mark6);
+            this.queryPageTwo.Controls.Add(this.Q1008);
+            this.queryPageTwo.Controls.Add(this.mark8);
+            this.queryPageTwo.Controls.Add(this.Q1010);
+            this.queryPageTwo.Controls.Add(this.mark10);
+            this.queryPageTwo.Controls.Add(this.q9);
+            this.queryPageTwo.Controls.Add(this.q7);
+            this.queryPageTwo.Controls.Add(this.q6);
+            this.queryPageTwo.Controls.Add(this.q8);
+            this.queryPageTwo.Controls.Add(this.q10);
+            this.queryPageTwo.Font = new System.Drawing.Font("Arial", 9F);
+            this.queryPageTwo.Location = new System.Drawing.Point(4, 22);
+            this.queryPageTwo.Name = "queryPageTwo";
+            this.queryPageTwo.Size = new System.Drawing.Size(847, 497);
+            this.queryPageTwo.TabIndex = 1;
+            this.queryPageTwo.Text = "Query 6-10";
+            // 
+            // Q1009
+            // 
+            this.Q1009.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
+            this.Q1009.ForeColor = System.Drawing.Color.White;
+            this.Q1009.Location = new System.Drawing.Point(453, 204);
+            this.Q1009.Name = "Q1009";
+            this.Q1009.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
+            this.Q1009.Size = new System.Drawing.Size(374, 118);
+            this.Q1009.TabIndex = 185;
+            this.Q1009.Text = "";
+            // 
+            // mark9
+            // 
+            this.mark9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
+            this.mark9.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mark9.ForeColor = System.Drawing.SystemColors.Menu;
+            this.mark9.Location = new System.Drawing.Point(795, 175);
+            this.mark9.Name = "mark9";
+            this.mark9.Size = new System.Drawing.Size(32, 22);
+            this.mark9.TabIndex = 183;
+            this.mark9.Text = "1";
+            this.mark9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // Q1007
+            // 
+            this.Q1007.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
+            this.Q1007.ForeColor = System.Drawing.Color.White;
+            this.Q1007.Location = new System.Drawing.Point(453, 42);
+            this.Q1007.Name = "Q1007";
+            this.Q1007.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
+            this.Q1007.Size = new System.Drawing.Size(374, 118);
+            this.Q1007.TabIndex = 181;
+            this.Q1007.Text = "";
+            // 
+            // mark7
+            // 
+            this.mark7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
+            this.mark7.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mark7.ForeColor = System.Drawing.SystemColors.Menu;
+            this.mark7.Location = new System.Drawing.Point(795, 15);
+            this.mark7.Name = "mark7";
+            this.mark7.Size = new System.Drawing.Size(32, 22);
+            this.mark7.TabIndex = 179;
+            this.mark7.Text = "1";
+            this.mark7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // Q1006
+            // 
+            this.Q1006.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
+            this.Q1006.ForeColor = System.Drawing.Color.White;
+            this.Q1006.Location = new System.Drawing.Point(19, 42);
+            this.Q1006.Name = "Q1006";
+            this.Q1006.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
+            this.Q1006.Size = new System.Drawing.Size(374, 118);
+            this.Q1006.TabIndex = 177;
+            this.Q1006.Text = "";
+            // 
+            // mark6
+            // 
+            this.mark6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
+            this.mark6.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mark6.ForeColor = System.Drawing.SystemColors.Menu;
+            this.mark6.Location = new System.Drawing.Point(361, 15);
+            this.mark6.Name = "mark6";
+            this.mark6.Size = new System.Drawing.Size(32, 22);
+            this.mark6.TabIndex = 175;
+            this.mark6.Text = "1";
+            this.mark6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // Q1008
+            // 
+            this.Q1008.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
+            this.Q1008.ForeColor = System.Drawing.Color.White;
+            this.Q1008.Location = new System.Drawing.Point(19, 204);
+            this.Q1008.Name = "Q1008";
+            this.Q1008.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
+            this.Q1008.Size = new System.Drawing.Size(374, 118);
+            this.Q1008.TabIndex = 173;
+            this.Q1008.Text = "";
+            // 
+            // mark8
+            // 
+            this.mark8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
+            this.mark8.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.mark8.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mark8.ForeColor = System.Drawing.SystemColors.Menu;
+            this.mark8.Location = new System.Drawing.Point(361, 177);
+            this.mark8.Name = "mark8";
+            this.mark8.Size = new System.Drawing.Size(32, 22);
+            this.mark8.TabIndex = 171;
+            this.mark8.Text = "1";
+            this.mark8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // Q1010
+            // 
+            this.Q1010.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
+            this.Q1010.ForeColor = System.Drawing.Color.White;
+            this.Q1010.Location = new System.Drawing.Point(19, 368);
+            this.Q1010.Name = "Q1010";
+            this.Q1010.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
+            this.Q1010.Size = new System.Drawing.Size(374, 118);
+            this.Q1010.TabIndex = 165;
+            this.Q1010.Text = "";
+            // 
+            // mark10
+            // 
+            this.mark10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
+            this.mark10.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mark10.ForeColor = System.Drawing.SystemColors.Menu;
+            this.mark10.Location = new System.Drawing.Point(361, 341);
+            this.mark10.Name = "mark10";
+            this.mark10.Size = new System.Drawing.Size(32, 22);
+            this.mark10.TabIndex = 163;
+            this.mark10.Text = "1";
+            this.mark10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // q9
+            // 
+            this.q9.AutoSize = true;
+            this.q9.ForeColor = System.Drawing.SystemColors.Control;
+            this.q9.Location = new System.Drawing.Point(450, 179);
+            this.q9.Name = "q9";
+            this.q9.Size = new System.Drawing.Size(52, 15);
+            this.q9.TabIndex = 182;
+            this.q9.Text = "Query 9:";
+            // 
+            // q7
+            // 
+            this.q7.AutoSize = true;
+            this.q7.ForeColor = System.Drawing.SystemColors.Control;
+            this.q7.Location = new System.Drawing.Point(450, 19);
+            this.q7.Name = "q7";
+            this.q7.Size = new System.Drawing.Size(52, 15);
+            this.q7.TabIndex = 178;
+            this.q7.Text = "Query 7:";
+            // 
+            // q6
+            // 
+            this.q6.AutoSize = true;
+            this.q6.ForeColor = System.Drawing.SystemColors.Control;
+            this.q6.Location = new System.Drawing.Point(16, 19);
+            this.q6.Name = "q6";
+            this.q6.Size = new System.Drawing.Size(52, 15);
+            this.q6.TabIndex = 174;
+            this.q6.Text = "Query 6:";
+            // 
+            // q8
+            // 
+            this.q8.AutoSize = true;
+            this.q8.ForeColor = System.Drawing.SystemColors.Control;
+            this.q8.Location = new System.Drawing.Point(16, 183);
+            this.q8.Name = "q8";
+            this.q8.Size = new System.Drawing.Size(52, 15);
+            this.q8.TabIndex = 170;
+            this.q8.Text = "Query 8:";
+            // 
+            // q10
+            // 
+            this.q10.AutoSize = true;
+            this.q10.ForeColor = System.Drawing.SystemColors.Control;
+            this.q10.Location = new System.Drawing.Point(16, 345);
+            this.q10.Name = "q10";
+            this.q10.Size = new System.Drawing.Size(59, 15);
+            this.q10.TabIndex = 162;
+            this.q10.Text = "Query 10:";
+            // 
+            // queryPageThree
+            // 
+            this.queryPageThree.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
+            this.queryPageThree.Controls.Add(this.Q1014);
+            this.queryPageThree.Controls.Add(this.mark14);
+            this.queryPageThree.Controls.Add(this.Q1012);
+            this.queryPageThree.Controls.Add(this.mark12);
+            this.queryPageThree.Controls.Add(this.Q1011);
+            this.queryPageThree.Controls.Add(this.mark11);
+            this.queryPageThree.Controls.Add(this.Q1013);
+            this.queryPageThree.Controls.Add(this.mark13);
+            this.queryPageThree.Controls.Add(this.Q1015);
+            this.queryPageThree.Controls.Add(this.mark15);
+            this.queryPageThree.Controls.Add(this.q14);
+            this.queryPageThree.Controls.Add(this.q12);
+            this.queryPageThree.Controls.Add(this.q11);
+            this.queryPageThree.Controls.Add(this.q13);
+            this.queryPageThree.Controls.Add(this.q15);
+            this.queryPageThree.Font = new System.Drawing.Font("Arial", 9F);
+            this.queryPageThree.Location = new System.Drawing.Point(4, 22);
+            this.queryPageThree.Name = "queryPageThree";
+            this.queryPageThree.Size = new System.Drawing.Size(847, 497);
+            this.queryPageThree.TabIndex = 2;
+            this.queryPageThree.Text = "Query 11-15";
+            // 
+            // Q1014
+            // 
+            this.Q1014.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
+            this.Q1014.ForeColor = System.Drawing.Color.White;
+            this.Q1014.Location = new System.Drawing.Point(453, 204);
+            this.Q1014.Name = "Q1014";
+            this.Q1014.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
+            this.Q1014.Size = new System.Drawing.Size(374, 118);
+            this.Q1014.TabIndex = 185;
+            this.Q1014.Text = "";
+            // 
+            // mark14
+            // 
+            this.mark14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
+            this.mark14.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.mark14.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mark14.ForeColor = System.Drawing.SystemColors.Menu;
+            this.mark14.Location = new System.Drawing.Point(795, 175);
+            this.mark14.Name = "mark14";
+            this.mark14.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.mark14.Size = new System.Drawing.Size(32, 22);
+            this.mark14.TabIndex = 183;
+            this.mark14.Text = "1";
+            this.mark14.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // Q1012
+            // 
+            this.Q1012.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
+            this.Q1012.ForeColor = System.Drawing.Color.White;
+            this.Q1012.Location = new System.Drawing.Point(453, 42);
+            this.Q1012.Name = "Q1012";
+            this.Q1012.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
+            this.Q1012.Size = new System.Drawing.Size(374, 118);
+            this.Q1012.TabIndex = 181;
+            this.Q1012.Text = "";
+            // 
+            // mark12
+            // 
+            this.mark12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
+            this.mark12.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.mark12.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mark12.ForeColor = System.Drawing.SystemColors.Menu;
+            this.mark12.Location = new System.Drawing.Point(795, 15);
+            this.mark12.Name = "mark12";
+            this.mark12.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.mark12.Size = new System.Drawing.Size(32, 22);
+            this.mark12.TabIndex = 179;
+            this.mark12.Text = "1";
+            this.mark12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // Q1011
+            // 
+            this.Q1011.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
+            this.Q1011.ForeColor = System.Drawing.Color.White;
+            this.Q1011.Location = new System.Drawing.Point(19, 42);
+            this.Q1011.Name = "Q1011";
+            this.Q1011.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
+            this.Q1011.Size = new System.Drawing.Size(374, 118);
+            this.Q1011.TabIndex = 177;
+            this.Q1011.Text = "";
+            // 
+            // mark11
+            // 
+            this.mark11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
+            this.mark11.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.mark11.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mark11.ForeColor = System.Drawing.SystemColors.Menu;
+            this.mark11.Location = new System.Drawing.Point(361, 15);
+            this.mark11.Name = "mark11";
+            this.mark11.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.mark11.Size = new System.Drawing.Size(32, 22);
+            this.mark11.TabIndex = 175;
+            this.mark11.Text = "1";
+            this.mark11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // Q1013
+            // 
+            this.Q1013.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
+            this.Q1013.ForeColor = System.Drawing.Color.White;
+            this.Q1013.Location = new System.Drawing.Point(19, 204);
+            this.Q1013.Name = "Q1013";
+            this.Q1013.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
+            this.Q1013.Size = new System.Drawing.Size(374, 118);
+            this.Q1013.TabIndex = 173;
+            this.Q1013.Text = "";
+            // 
+            // mark13
+            // 
+            this.mark13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
+            this.mark13.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.mark13.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mark13.ForeColor = System.Drawing.SystemColors.Menu;
+            this.mark13.Location = new System.Drawing.Point(361, 175);
+            this.mark13.Name = "mark13";
+            this.mark13.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.mark13.Size = new System.Drawing.Size(32, 22);
+            this.mark13.TabIndex = 171;
+            this.mark13.Text = "1";
+            this.mark13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // Q1015
+            // 
+            this.Q1015.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
+            this.Q1015.ForeColor = System.Drawing.Color.White;
+            this.Q1015.Location = new System.Drawing.Point(19, 368);
+            this.Q1015.Name = "Q1015";
+            this.Q1015.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
+            this.Q1015.Size = new System.Drawing.Size(374, 118);
+            this.Q1015.TabIndex = 165;
+            this.Q1015.Text = "";
+            // 
+            // mark15
+            // 
+            this.mark15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
+            this.mark15.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.mark15.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mark15.ForeColor = System.Drawing.SystemColors.Menu;
+            this.mark15.Location = new System.Drawing.Point(361, 339);
+            this.mark15.Name = "mark15";
+            this.mark15.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.mark15.Size = new System.Drawing.Size(32, 22);
+            this.mark15.TabIndex = 163;
+            this.mark15.Text = "1";
+            this.mark15.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // q14
+            // 
+            this.q14.AutoSize = true;
+            this.q14.ForeColor = System.Drawing.SystemColors.Control;
+            this.q14.Location = new System.Drawing.Point(452, 179);
+            this.q14.Name = "q14";
+            this.q14.Size = new System.Drawing.Size(59, 15);
+            this.q14.TabIndex = 182;
+            this.q14.Text = "Query 14:";
+            // 
+            // q12
+            // 
+            this.q12.AutoSize = true;
+            this.q12.ForeColor = System.Drawing.SystemColors.Control;
+            this.q12.Location = new System.Drawing.Point(452, 17);
+            this.q12.Name = "q12";
+            this.q12.Size = new System.Drawing.Size(59, 15);
+            this.q12.TabIndex = 178;
+            this.q12.Text = "Query 12:";
+            // 
+            // q11
+            // 
+            this.q11.AutoSize = true;
+            this.q11.ForeColor = System.Drawing.SystemColors.Control;
+            this.q11.Location = new System.Drawing.Point(16, 19);
+            this.q11.Name = "q11";
+            this.q11.Size = new System.Drawing.Size(58, 15);
+            this.q11.TabIndex = 174;
+            this.q11.Text = "Query 11:";
+            // 
+            // q13
+            // 
+            this.q13.AutoSize = true;
+            this.q13.ForeColor = System.Drawing.SystemColors.Control;
+            this.q13.Location = new System.Drawing.Point(15, 179);
+            this.q13.Name = "q13";
+            this.q13.Size = new System.Drawing.Size(59, 15);
+            this.q13.TabIndex = 170;
+            this.q13.Text = "Query 13:";
+            // 
+            // q15
+            // 
+            this.q15.AutoSize = true;
+            this.q15.ForeColor = System.Drawing.SystemColors.Control;
+            this.q15.Location = new System.Drawing.Point(15, 343);
+            this.q15.Name = "q15";
+            this.q15.Size = new System.Drawing.Size(59, 15);
+            this.q15.TabIndex = 162;
+            this.q15.Text = "Query 15:";
+            // 
+            // executeButton
+            // 
+            this.executeButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
+            this.executeButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.executeButton.Font = new System.Drawing.Font("Segoe Print", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.executeButton.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.executeButton.Location = new System.Drawing.Point(769, 565);
+            this.executeButton.Name = "executeButton";
+            this.executeButton.Size = new System.Drawing.Size(108, 28);
+            this.executeButton.TabIndex = 190;
+            this.executeButton.Text = "Execute";
+            this.executeButton.UseVisualStyleBackColor = false;
+            this.executeButton.Click += new System.EventHandler(this.executeButton_Click);
+            // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.DefaultExt = "mdf";
+            this.openFileDialog1.Filter = "mdf files (*.mdf)|*.mdf";
+            this.openFileDialog1.Title = "Open Sample Database";
+            // 
+            // openFileDialog2
+            // 
+            this.openFileDialog2.DefaultExt = "xlsx";
+            this.openFileDialog2.Filter = "xlsx files (*.xlsx)|*.xlsx";
+            this.openFileDialog2.Title = "Open Student Ans Excel";
+            // 
+            // saveTemp
+            // 
+            this.saveTemp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
+            this.saveTemp.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.saveTemp.Font = new System.Drawing.Font("Segoe Print", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.saveTemp.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.saveTemp.Location = new System.Drawing.Point(612, 565);
+            this.saveTemp.Name = "saveTemp";
+            this.saveTemp.Size = new System.Drawing.Size(108, 28);
+            this.saveTemp.TabIndex = 194;
+            this.saveTemp.Text = "Save All";
+            this.saveTemp.UseVisualStyleBackColor = false;
+            this.saveTemp.Click += new System.EventHandler(this.saveTemp_Click);
             // 
             // frmQueries
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.ClientSize = new System.Drawing.Size(899, 558);
-            this.Controls.Add(this.tabControl1);
+            this.ClientSize = new System.Drawing.Size(899, 605);
+            this.Controls.Add(this.saveTemp);
+            this.Controls.Add(this.executeButton);
+            this.Controls.Add(this.queriesTab);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmQueries";
             this.Text = "frmQueries";
-            this.tabPage4.ResumeLayout(false);
-            this.tabPage4.PerformLayout();
-            this.tabPage3.ResumeLayout(false);
-            this.tabPage3.PerformLayout();
-            this.tabControl1.ResumeLayout(false);
-            this.tabPage1.ResumeLayout(false);
-            this.tabPage1.PerformLayout();
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmQueries_FormClosed);
+            this.Load += new System.EventHandler(this.frmQueries_FormLoad);
+            this.queriesTab.ResumeLayout(false);
+            this.queryPageOne.ResumeLayout(false);
+            this.queryPageOne.PerformLayout();
+            this.queryPageTwo.ResumeLayout(false);
+            this.queryPageTwo.PerformLayout();
+            this.queryPageThree.ResumeLayout(false);
+            this.queryPageThree.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.TabPage tabPage4;
-        private System.Windows.Forms.Button loadButton3;
-        private System.Windows.Forms.Button executeButton3;
-        private System.Windows.Forms.Button exportButton3;
-        private System.Windows.Forms.RichTextBox query14;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.RichTextBox query12;
-        private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.RichTextBox query11;
-        private System.Windows.Forms.TextBox textBox13;
-        private System.Windows.Forms.RichTextBox query13;
-        private System.Windows.Forms.TextBox textBox14;
-        private System.Windows.Forms.RichTextBox query15;
-        private System.Windows.Forms.TextBox textBox18;
-        private System.Windows.Forms.CheckBox checkBox12;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.CheckBox checkBox13;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.CheckBox checkBox14;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.CheckBox checkBox15;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.CheckBox checkBox18;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.TabPage tabPage3;
-        private System.Windows.Forms.Button loadButton2;
-        private System.Windows.Forms.Button executeButton2;
-        private System.Windows.Forms.Button exportButton2;
-        private System.Windows.Forms.RichTextBox query9;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.RichTextBox query7;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.RichTextBox query6;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.RichTextBox query8;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.RichTextBox query10;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.CheckBox checkBox6;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.CheckBox checkBox7;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.CheckBox checkBox8;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.CheckBox checkBox9;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.CheckBox checkBox11;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TabControl tabControl1;
-        private System.Windows.Forms.TabPage tabPage1;
-        private System.Windows.Forms.Button loadButton1;
-        private System.Windows.Forms.Button executeButton1;
-        private System.Windows.Forms.RichTextBox query4;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.RichTextBox query2;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.RichTextBox query1;
-        private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.RichTextBox query3;
-        private System.Windows.Forms.CheckBox checkBox4;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.RichTextBox query5;
-        private System.Windows.Forms.CheckBox checkBox16;
-        private System.Windows.Forms.TextBox textBox16;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Button exportButton1;
-        private System.Windows.Forms.Label TB_from_setting;
-        private System.Windows.Forms.Label TB_textlink;
+        private System.Windows.Forms.TabControl queriesTab;
+        private System.Windows.Forms.TabPage queryPageOne;
+        private System.Windows.Forms.RichTextBox Q1004;
+        private System.Windows.Forms.TextBox markFour;
+        private System.Windows.Forms.Label q4;
+        private System.Windows.Forms.RichTextBox Q1002;
+        private System.Windows.Forms.TextBox markTwo;
+        private System.Windows.Forms.Label q2;
+        private System.Windows.Forms.RichTextBox Q1001;
+        private System.Windows.Forms.TextBox markOne;
+        private System.Windows.Forms.Label q1;
+        private System.Windows.Forms.RichTextBox Q1003;
+        private System.Windows.Forms.TextBox markThree;
+        private System.Windows.Forms.Label q3;
+        private System.Windows.Forms.RichTextBox Q1005;
+        private System.Windows.Forms.TextBox markFive;
+        private System.Windows.Forms.Label q5;
+        private System.Windows.Forms.TabPage queryPageTwo;
+        private System.Windows.Forms.RichTextBox Q1009;
+        private System.Windows.Forms.TextBox mark9;
+        private System.Windows.Forms.RichTextBox Q1007;
+        private System.Windows.Forms.TextBox mark7;
+        private System.Windows.Forms.RichTextBox Q1006;
+        private System.Windows.Forms.TextBox mark6;
+        private System.Windows.Forms.RichTextBox Q1008;
+        private System.Windows.Forms.TextBox mark8;
+        private System.Windows.Forms.RichTextBox Q1010;
+        private System.Windows.Forms.TextBox mark10;
+        private System.Windows.Forms.Label q9;
+        private System.Windows.Forms.Label q7;
+        private System.Windows.Forms.Label q6;
+        private System.Windows.Forms.Label q8;
+        private System.Windows.Forms.Label q10;
+        private System.Windows.Forms.TabPage queryPageThree;
+        private System.Windows.Forms.RichTextBox Q1014;
+        private System.Windows.Forms.TextBox mark14;
+        private System.Windows.Forms.RichTextBox Q1012;
+        private System.Windows.Forms.TextBox mark12;
+        private System.Windows.Forms.RichTextBox Q1011;
+        private System.Windows.Forms.TextBox mark11;
+        private System.Windows.Forms.RichTextBox Q1013;
+        private System.Windows.Forms.TextBox mark13;
+        private System.Windows.Forms.RichTextBox Q1015;
+        private System.Windows.Forms.TextBox mark15;
+        private System.Windows.Forms.Label q14;
+        private System.Windows.Forms.Label q12;
+        private System.Windows.Forms.Label q11;
+        private System.Windows.Forms.Label q13;
+        private System.Windows.Forms.Label q15;
+        private System.Windows.Forms.Button executeButton;
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
+        private System.Windows.Forms.OpenFileDialog openFileDialog2;
+        private System.Windows.Forms.FolderBrowserDialog exportDialog;
+        private System.Windows.Forms.SaveFileDialog saveFileDialog1;
+        private System.Windows.Forms.Button saveTemp;
     }
 }

@@ -1,5 +1,5 @@
 ﻿
-namespace SQLChecker2021
+namespace Latest_27_05
 {
     partial class frmDashboard
     {
@@ -35,24 +35,26 @@ namespace SQLChecker2021
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(355, 149);
+            this.label1.Location = new System.Drawing.Point(141, 149);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(55, 12);
-            this.label1.TabIndex = 0;
+            this.label1.Size = new System.Drawing.Size(512, 108);
+            this.label1.TabIndex = 1;
             this.label1.Text = "Dashboard";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // frmDashboard
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
-            this.ClientSize = new System.Drawing.Size(800, 415);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmDashboard";
             this.Text = "frmDashboard";
+            this.Load += new System.EventHandler(this.frmDashboard_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
